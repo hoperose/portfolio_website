@@ -23,7 +23,7 @@ html, body {
 
 .landlogo {
     margin-left: 82px;
-    margin-top: -22px;
+    margin-top: -18px;
     position: relative;
 }
 
@@ -40,7 +40,7 @@ html, body {
 a #logobadge {
     position: relative;
 /*    margin-left: 50px;*/
-    margin-top: -50px;
+    margin-top: -48px;
     display: block;
 }
 
@@ -84,7 +84,22 @@ a #logobadge {
 
 }
 
+.menu {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #B82867;
+    display: inline-block;
+    float: left;
+    margin-top: -33px;
+    margin-left: -58px;
+}
 
+
+
+.menu:hover {
+     -webkit-filter: brightness(150%);
+}
 
 .hamburger {
     display: block;
