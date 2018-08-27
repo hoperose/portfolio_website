@@ -22,7 +22,7 @@ html, body {
 }
 
 .landlogo {
-    margin-left: 82px;
+    margin-left: 50px;
     margin-top: -18px;
     position: relative;
 }
@@ -171,7 +171,7 @@ ul {
     list-style-type: none;
     font-family: 'Open Sans';
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 18px;
     margin-top: 5%;
     padding-left: 10%;
@@ -184,7 +184,7 @@ li {
 .navigation a {
     color: black;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     transition: all .3s ease-in-out;
     display: block;
 }
@@ -236,6 +236,7 @@ li {
     left: 0;
     background: url(../images/land_image.jpg) center center no-repeat;
     background-size: cover;
+    position: absolute;
 }
 
 
@@ -254,7 +255,8 @@ li {
     margin-left: 40%;
 }
 
-#ux_design {
+
+.ux_design {
     font-family: 'Open Sans', sans-serif;
     font-size: 43px;
     font-weight: 700;
@@ -264,7 +266,7 @@ li {
     
 }
 
-#ux_research {
+.ux_research {
     font-family: 'Open Sans', sans-serif;
     font-size: 43px;
     font-weight: 700;
@@ -272,16 +274,19 @@ li {
     margin-top: -92px;
 }
 
-/*.working p {
-    font-size: 43px;
-    font-family: 'Playfair+Display';
-    font-weight: 600;
-    text-align: center;
-    margin-top: -8px;
-    margin-bottom: 60px;
-    line-height: 46px;
-}*/
+.landing_design {
+    display: none;
+}
 
+.landing_research {
+    display: none;
+}
+
+
+
+/*.highlight_design:hover + #landing_design {
+    display: block;
+}*/
 
 
 mark {
@@ -295,11 +300,12 @@ mark {
 }
 
 
-mark:hover {
+mark:hover{
     line-height: 35px;
     padding-bottom: 5px;
     
 }
+
 
 
 

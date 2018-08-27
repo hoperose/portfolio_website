@@ -16,13 +16,13 @@
         </div>
         <div class="split right">
 
-            <div class="working">
-                <p id="ux_design"><mark class="highlight">Design</mark></p>
+            <span class="working">
+                <p class="ux_design"><span class="highlight_design"><a href="/Portfolio/index.html"><mark >Design</mark></a></span></p>
+                <img class="landing_design" src="images/landing_design.jpg" alt="landing design showcase" width="960" height="1080">
                 <h1>UX</h1>
-                <p id="ux_research"><mark class="highlight">Research</mark></p>
-                <!--<p>Product <mark class="highlight">Design</mark><br>
-                   Design <mark class="highlight">Research</mark></p>-->
-            </div>
+                <p class="ux_research"><span class="highlight_research"><a href="Portfolio/index.html"><mark >Research</mark></a></span></p>
+                <img class="landing_research" src="images/landing_research.jpg" alt="landing research showcase" width="960" height="1080">
+            </span>
          
             
         </div>
@@ -84,6 +84,30 @@
             $('.split.left').css({'background-image': 'url(../images/' + images[Math.floor(Math.random() * images.length)] + ')'});
         })
     </script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.highlight_design').mouseover(function(){
+                $('.split.left').css({'background-image': 'url(../images/landing_design.jpg)'});
+                $('.highlight_design').mouseleave(function(){
+                    var images = ['land_image.jpg', 'land_image_2.jpg', 'land_image_3.jpg'];
+            $('.split.left').css({'background-image': 'url(../images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+                    
+                })
+            });
+            $('.highlight_research').mouseover(function(){
+                $('.split.left').css({'background-image':'url(../images/landing_research.jpg)'});
+                $('.highlight_research').mouseleave(function(){
+                    var images = ['land_image.jpg', 'land_image_2.jpg', 'land_image_3.jpg'];
+            $('.split.left').css({'background-image': 'url(../images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+                    
+                })
+            })
+            
+        })
+    </script>
+    
+   
 </body>
     
 <footer>
