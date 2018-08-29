@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,500,700|Karla|Lora|Open+Sans:400,600,700|PT+Sans:400,700|PT+Serif:400,700|Source+Sans+Pro:400,600,700|Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,500,700|Karla|Lora:400,700|Open+Sans:400,600,700|PT+Sans:400,700|PT+Serif:400,700|Source+Sans+Pro:400,600,700|Playfair+Display:400,700');
 
 
 html, body {
@@ -361,9 +361,9 @@ mark:hover{
     margin-top: 180px;
     margin-bottom: 180px;
     margin-left: 180px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
     
 }
 
@@ -411,7 +411,7 @@ mark:hover{
     margin-bottom: 588px;
 }
 .story {
-    font-family:'Playfair Display', serif;
+    font-family:'Lora', serif;
     font-size: 50px;
     font-weight: 700;
     margin-left: 180px;
@@ -443,7 +443,7 @@ mark:hover{
     margin-left: 180px;
     padding-top: 60px;
     margin-top: -50px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
     font-size: 28px;
     font-weight: 700;
 }
@@ -468,9 +468,9 @@ mark:hover{
 
 
 #aboutPortfolio {
-    font-family: 'Playfair+Display';
+    font-family: 'Lora', serif;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 187px;
     margin-bottom: 180px;
     margin-left: -77px;
@@ -492,23 +492,34 @@ mark:hover{
     border-radius: 0;
 }
 
-#eslaid {
+#taskstore {
     margin-left: 25px;
 }
 
-#dragonfruit {
+#hobbyup {
     margin-top: 25px;
 }
 
+#calcentral {
+    margin-left: 25px;
+}
+
+#eslaid {
+    margin-top: 25px;
+}
 
 #infoviz {
     margin-left: 25px;
 }
 
 
-#wechatresearch {
+#dragonfruit {
     margin-top: 25px;
 }
+
+
+
+
 
 #soundslikefun {
     margin-left: 25px;
@@ -529,10 +540,12 @@ mark:hover{
 
 
 
+/*
 #wechatcard {
     height: 126px;
     margin-top: 202px;
 }
+*/
 
 /*.card-body:hover {
     background: #B82867;
@@ -543,9 +556,10 @@ mark:hover{
 
 
 .card-title {
-    font-family: 'Playfair+Display';
-    font-weight: 600;
-    font-stretch: semi-expanded;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 22px;
+/*    font-stretch: semi-expanded;*/
 }
 
 .card-text {
