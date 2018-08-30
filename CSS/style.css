@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,500,700|Karla|Lora:400,700|Open+Sans:400,600,700|PT+Sans:400,700|PT+Serif:400,700|Source+Sans+Pro:400,600,700|Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,500,700,900|Karla|Lora:400,700|Open+Sans:300,400,600,700|PT+Sans:400,700|PT+Serif:400,700|Source+Sans+Pro:400,600,700|Playfair+Display:400,700');
 
 
 html, body {
@@ -585,7 +585,7 @@ mark:hover{
 .back {
     display: block;
     position: fixed;
-    margin-top: -460px;
+    margin-top: -430px;
     margin-left: -35px;
 }
 
@@ -600,22 +600,98 @@ mark:hover{
 
 /* Styling of CalCentral */
 
-.background_image {
-    background: url(../Portfolio/Calcentral/images/new_background.jpg) center center no-repeat;
+.background_image_calcentral {
+    background: url(../Portfolio/Calcentral/images/background.jpg) center center no-repeat;
     background-size: cover;
     width: 100%;
     height: 500px;
 }
 
-#rectangle {
+.project_card_calcentral {
     background: #3B7EA1;
-    width: 750px;
+    width: 880px;
     height: 358px;
     display: block;
     position: relative;
-    margin-left: 180px;
-    margin-top: -28px;
+    margin-left: 115px;
+    margin-top: -20px;
+}
+
+.project_card_calcentral h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 33px;
 }
 
 
 
+/* Styling of Taskit */
+
+.background_image_taskit {
+    background: url(../Portfolio/Taskit/images/background.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.project_card_taskit {
+    background: #81D4FA;
+    width: 880px;
+    height: 358px;
+    display: block;
+    position: relative;
+    margin-left: 115px;
+    margin-top: -20px;
+}
+
+.project_card_taskit h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.project_card_taskit p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 780px;
+    padding-left: 95px;
+    color: #ffffff;
+    padding-top: 30px;
+    
+}
+
+
+/* Styling of Hobbyup */
+
+.background_image_hobbyup {
+    background: url(../Portfolio/HobbyUp/images/background.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.project_card_hobbyup {
+    background: #00d9c8;
+    width: 880px;
+    height: 358px;
+    display: block;
+    position: relative;
+    margin-left: 115px;
+    margin-top: -20px;
+}
+
+.project_card_hobbyup h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 33px;
+}
