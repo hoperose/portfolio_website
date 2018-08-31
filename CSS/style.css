@@ -650,7 +650,7 @@ mark:hover{
 .project_card_taskit h1 {
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 50px;
     color: #ffffff;
     text-align: center;
     padding-top: 33px;
@@ -680,15 +680,93 @@ mark:hover{
     margin-left: -175px;
 }
 
-.project_background_taskit h2 {
+.background h2 {
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 700;
-    font-size: 33px;
+    font-size: 35px;
     color: #333333;
     margin-left: 118px;
     margin-top: 28px;
 }
 
+.background p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 850px;
+    margin-left: 118px;
+}
+
+#role_time {
+    margin-top: 25px;
+    margin-left: 103px;
+    
+}
+
+#role_time h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#role_time p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 0px;
+}
+
+#testimonial h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 118px;
+    margin-top: 28px;  
+}
+
+#testimonial p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#client {
+    margin-left: 600px;
+}
+
+#client img {
+    float: left;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+#client p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
+    
+}
+
+#client span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -5px;
+    padding-right: 5px;
+}
+
+.process {
+    margin-top: 88px;
+}
+
+.process h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #333333;
+    margin-left: 118px;
+    margin-top: 28px;
+}
 /* Styling of Hobbyup */
 
 .background_image_hobbyup {
