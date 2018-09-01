@@ -695,6 +695,7 @@ mark:hover{
     font-weight: 400;
     width: 850px;
     margin-left: 118px;
+    color: #333333;
 }
 
 #role_time {
@@ -707,6 +708,7 @@ mark:hover{
     font-family: 'Open Sans', sans-serif;
     font-size: 23px;
     font-weight: 600;
+    color: #333333;
 }
 
 #role_time p {
@@ -714,6 +716,7 @@ mark:hover{
     font-size: 16px;
     font-weight: 400;
     margin-left: 0px;
+    color: #333333;
 }
 
 #testimonial h3 {
@@ -722,12 +725,14 @@ mark:hover{
     font-weight: 600;
     margin-left: 118px;
     margin-top: 28px;  
+    color: #333333;
 }
 
 #testimonial p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    color: #333333;
 }
 
 #client {
@@ -744,6 +749,7 @@ mark:hover{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     padding-top: 15px;
+    color: #333333;
     
 }
 
@@ -753,6 +759,7 @@ mark:hover{
     font-weight: 600;
     margin-left: -5px;
     padding-right: 5px;
+    color: #333333;
 }
 
 .process {
@@ -767,6 +774,63 @@ mark:hover{
     margin-left: 118px;
     margin-top: 28px;
 }
+
+.process h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #333333;
+    margin-left: 118px;
+    margin-top: 28px;
+}
+
+.process p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 118px;
+    margin-top: 18px;
+    width: 850px;
+}
+
+#screenshot_one {
+    margin-left: 118px;
+}
+
+#screenshot_one figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    margin-left: 70px;
+}
+
+#screenshot_two figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    margin-left: 35px;
+}
+
+#screenshot_two {
+    margin-left: -70px;
+}
+
+#screenshot_three figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    margin-left: 50px;
+}
+
+#screenshot_three {
+    margin-left: -70px;
+}
+
+
 /* Styling of Hobbyup */
 
 .background_image_hobbyup {
