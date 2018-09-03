@@ -796,6 +796,7 @@ mark:hover{
 
 #screenshot_one {
     margin-left: 118px;
+    margin-bottom: 28px;
 }
 
 #screenshot_one figcaption {
@@ -815,7 +816,7 @@ mark:hover{
 }
 
 #screenshot_two {
-    margin-left: -70px;
+    margin-left: -90px;
 }
 
 #screenshot_three figcaption {
@@ -827,10 +828,79 @@ mark:hover{
 }
 
 #screenshot_three {
-    margin-left: -70px;
+    margin-left: -90px;
 }
 
+.process h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #333333;
+    margin-left: 118px;
+    margin-top: 25px;
+    
+}
 
+#challenge p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 400px;
+}
+
+#goal {
+    margin-left: -110px;
+}
+
+#goal p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 400px;
+}
+
+#kanban img {
+    margin-left: 118px;
+    margin-top: 28px;
+}
+#kanban p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 260px;
+    margin-left: 118px;
+}
+
+#piechart img {
+    margin-left: 100px;
+    margin-top: 28px;
+}
+
+#piechart p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 260px;
+    margin-left: 40px;
+}
+
+#activityhistory {
+    margin-left: -25px;
+    margin-top: 28px;
+}
+
+#activityhistory p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 260px;
+    margin-left: -10px;
+}
 /* Styling of Hobbyup */
 
 .background_image_hobbyup {

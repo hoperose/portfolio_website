@@ -16,6 +16,9 @@
     <!-- Hover.css -->
     <link rel="stylesheet" href="../../CSS/hover-min.css">
     
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="../../CSS/magnific-popup.css">
+    
     <!-- Custom Styling-->
     <link rel="stylesheet" href="../../CSS/style.css">
     <title>Taskit Mobile App</title>
@@ -49,7 +52,7 @@
         </div>
         <div class="project_card_taskit">
             <h1>Taskit Mobile App</h1>
-            <p>Cross-platform task management mobile app design for iOS and Android. With it, the user can easily check and manage the workflow and progress of their tasks.</p>
+            <p>Cross-platform task management mobile app design for iOS and Android. With it, the user can easily view and manage the workflow and progress of their tasks.</p>
             <div id="badges" class="row">
                 <div id="apple_store" class="col-xl-6">
                     <a href="https://itunes.apple.com/us/app/tas-kit/id1434337562?mt=8" target="_blank"><img src="../Taskit/images/apple_badge.png", width="130" height="40"></a>
@@ -87,21 +90,46 @@
                 <h2>Design Process</h2>
                 <div class="stage_one">
                     <h3>Discover &amp; Define</h3>
-                    <p>The product goal of Taskit has been set as bringing simple and efficient digital experience for the user to manage tasks. The product goal of Taskit has been set as bringing simple and efficient digital experience for the user to manage tasks. Its existing web-based product focuses on the following three functionalities: </p>
+                    <p>Before getting started with the design, I had a kick-off meeting with the client. According to the product walkthrough, the goal of Taskit has been set as bringing simple and efficient digital experience for the user to manage tasks. Its existing web-based product focuses on the following three functionalities: </p>
                     <div class="row">
                         <div id="screenshot_one" class="col-xl-4">
-                            <img src="images/task_create.jpg" alt="adding and creating tasks" width="256" height="160">
+                            <a class="image-link" href="../Taskit/images/task_create.jpg"><img src="images/task_create.jpg" alt="adding and creating tasks" width="256" height="160"></a>
                             <figcaption class="figure-caption">Create Tasks</figcaption>
                         </div>
                         <div id="screenshot_two" class="col-xl-4">
-                            <img src="images/workflow_manage.jpg" alt="managing workflow" width="256" height="160">
+                            <a class="image-link" href="images/workflow_manage.jpg"><img src="images/workflow_manage.jpg" alt="managing workflow" width="256" height="160"></a>
                             <figcaption class="figure-caption">Edit &amp; Manage Workflow </figcaption>
                         </div>
                         <div id="screenshot_three" class="col-xl-4">
-                            <img src="images/collaboration.jpg" alt="collaboration manage" width="256" height="160">
+                            <a class="image-link" href="images/collaboration.jpg"><img src="images/collaboration.jpg" alt="collaboration manage" width="256" height="160"></a>
                             <figcaption class="figure-caption">Manage Collaboration </figcaption>
                         </div>
-                        <div class="col-xl-4">
+                    </div>
+                    <p>As mobile devices have become a popular way for people to browse the web information anytime anywhere, the company realizes that mobile app, which focuses on visualizing the progress of tasks, can build a new customer market as well as bring their business to the next level. </p>
+                    <div class="row">
+                        <div id="challenge" class="col-xl-6">
+                            <h4>The Challenge</h4>
+                            <p>The client wants to create efficient experience for their users by building a cross-platform mobile application that makes it simple for users view and manage the progress of tasks in a timely manner.</p>
+                        </div>
+                        <div id="goal" class="col-xl-6">
+                            <h4>The Goal of Mobile App</h4>
+                            <p>Design a mobile app experience that makes it simple for the user to quickly view the progress of tasks as well as manage the workflows for efficient coordination purpose.</p>
+                        </div>
+                    </div>
+                    <h3>Solutions</h3>
+                    <p>With regard to the client's needs, I came up with the design solution that includes the following three features: </p>
+                    <div class="row">
+                        <div id="kanban" class="col-xl-4">
+                            <img src="images/kanban_board.png" alt="kanban technique" width="253" height="188">
+                            <p>The Kanban technique is introduced to enable the user to quickly view the workflow of tasks.</p>
+                        </div>
+                        <div id="piechart" class="col-xl-4">
+                            <img src="images/pie_chart.png" alt="pie chart" width="117" height="188">
+                            <p>The segmented donut chart which displays the proportions of steps with different status enables the user to quickly view the progress of a task. </p>
+                        </div>
+                        <div id="activityhistory" class="col-xl-4">
+                            <img src="images/activity_history.png" alt="activity history" width="202" height="188">
+                            <p>The activity history is utilized to allow the user to keep track of updates from other collaborators.</p>
                         </div>
                     </div>
                 </div>
@@ -128,6 +156,26 @@
             })
         })
     </script>
+    
+    <!-- Magnific Popuo core JS -->
+    <script src="../../JS/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.image-link').magnificPopup({
+                type:'image',
+                closeBtnInside: false,
+                closeOnContentClick: true,
+                
+                image: {
+                    verticalFit: true,
+                    cursor: 'mfp-zoom-out-cur'
+                }
+                                           });
+        })
+    </script>
+    
+    
+    
 </body>
 <footer>
     <div class="copyright" id="cr_portfolio">
