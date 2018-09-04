@@ -620,12 +620,26 @@ mark:hover{
 .project_card_calcentral h1 {
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 50px;
     color: #ffffff;
     text-align: center;
     padding-top: 33px;
 }
 
+.project_card_calcentral p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 780px;
+    padding-left: 95px;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.project_card_calcentral button {
+    margin-left: 380px;
+    margin-top: 50px;
+}
 
 
 /* Styling of Taskit */
@@ -799,6 +813,12 @@ mark:hover{
     margin-bottom: 28px;
 }
 
+#screenshot_one img {
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
 #screenshot_one figcaption {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -819,6 +839,12 @@ mark:hover{
     margin-left: -90px;
 }
 
+#screenshot_two img {
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
 #screenshot_three figcaption {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -829,6 +855,13 @@ mark:hover{
 
 #screenshot_three {
     margin-left: -90px;
+}
+
+#screenshot_three img {
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+
 }
 
 .process h4 {
@@ -900,6 +933,72 @@ mark:hover{
     color: #333333;
     width: 260px;
     margin-left: -10px;
+}
+
+#bottom_navi {
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    margin-left: 328px;
+    margin-top: 20px;
+}
+
+#wireframing_v1 {
+    margin-left: 118px;
+}
+
+#navi_features {
+    margin-top: 20px;
+}
+
+#navi_features li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 850px;
+}
+
+#navi_features span {
+    font-weight: 700;
+}
+
+#wireframing_caption_1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+
+}
+
+#feedbacks_v1 img {
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+#feedbacks_v1 {
+    margin-top: 28px;
+}
+
+#feedbacks_v1 h4 {
+   font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333; 
+}
+
+#feedbacks_v1 ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333; 
+    width: 410px;
+    margin-left: 75px;
+}
+
+#needimprovement {
+    margin-left: -175px;
 }
 /* Styling of Hobbyup */
 
