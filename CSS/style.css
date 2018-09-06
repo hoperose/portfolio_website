@@ -641,6 +641,25 @@ mark:hover{
     margin-top: 50px;
 }
 
+#method_contribution {
+    margin-top: 25px;
+    margin-left: 103px;
+}
+
+#method_contribution h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #333333;
+}
+
+#method_contribution p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 0px;
+    color: #333333;
+}
 
 /* Styling of Taskit */
 
@@ -973,7 +992,7 @@ mark:hover{
 }
 
 #feedbacks_v1 img {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 25px;
 }
 
@@ -999,6 +1018,40 @@ mark:hover{
 
 #needimprovement {
     margin-left: -175px;
+}
+
+#v2_change_one ul{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 400px;
+    margin-left: 75px;
+}
+
+#v2_change_one img {
+    margin-left: 35px;
+}
+#v2_change_two {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#v2_change_two ul{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 400px;
+    margin-left: 75px;
+}
+
+#v2_change_two img {
+    margin-left: 35px;
+}
+
+span {
+    font-weight: 700;
 }
 /* Styling of Hobbyup */
 
