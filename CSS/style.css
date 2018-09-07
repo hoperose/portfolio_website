@@ -1033,7 +1033,7 @@ mark:hover{
     margin-left: 35px;
 }
 #v2_change_two {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
@@ -1053,6 +1053,22 @@ mark:hover{
 span {
     font-weight: 700;
 }
+
+
+#v3_change_one img {
+    margin-left: 35px;
+}
+
+#v3_change_two {
+    margin-top: 10px;
+}
+
+#v3_change_two img {
+    margin-left: 35px;
+}
+
+
+
 /* Styling of Hobbyup */
 
 .background_image_hobbyup {
