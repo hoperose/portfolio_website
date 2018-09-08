@@ -1059,16 +1059,68 @@ span {
     margin-left: 35px;
 }
 
+#v3_change_one h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333; 
+}
+
+#v3_change_one ul{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 400px;
+    margin-left: 75px;
+    margin-top: -10px;
+}
+
+#wireframing_caption_2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 150px;
+}
+
 #v3_change_two {
     margin-top: 10px;
+}
+
+#v3_change_two h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333; 
+    margin-top: -5px;
 }
 
 #v3_change_two img {
     margin-left: 35px;
 }
 
+#v3_change_two ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 400px;
+    margin-left: 75px;
+    margin-top: -10px;
+}
 
+#wireframing_caption_3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 150px;
+}
 
+#final_design_head {
+    margin-left: 118px;
+}
 /* Styling of Hobbyup */
 
 .background_image_hobbyup {
