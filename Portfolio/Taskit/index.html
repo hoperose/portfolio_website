@@ -227,7 +227,33 @@
                     <h3>Final Design</h3>
                     <p>In addition to follow the iOS Human Interface Guideline as well as Material Design for Android, the minimalist approach was utilized to create the whole high-fidelity UI. Specifically, all screens have generous amount of white space which marks out the core functional elements of the app. A monochromatic color scheme based on the light sky blue theme color of the web-based product is used. Meanwhile, to maintain the consistency between the web-based product and the mobile app, the same set of colors that indicate task steps with the different status is used. Also, a set of simple and recognizable filled icons are used to represent the functionality as well as content. </p>
                     <img id="final_design_head" src="images/final_design_head.JPG">
+                    <div class="final_ui">
+                    <ul class="tabs">
+                        <li class="tab-link current" data-tab="tab-1">UI for iOS</li>
+                        <li class="tab-link" data-tab="tab-2">UI for Android</li>
+                    </ul>
+                    <div id="tab-1" class="tab-content current">
+                        <img src="images/hifi_ios.jpg" alt="highfi for iOS">
+                    </div>
+                    <div id="tab-2" class="tab-content">
+                        <img src="images/hifi_android.jpg" alt="highfi for Android">
+                    </div>
+                    </div>
                 </div>
+            </div>
+            <div class="reflection">
+                <h2>Reflection</h2>
+                <h3>Impact</h3>
+                <ul>
+                    <li>Designed an efficient experience for the Taskit mobile app by incorporating effective visual tools such as Kanban technique, segmented donut chart and activity history tracking. </li>
+                    <li>Simplified the navigation as well as optimized the user flow by reducing the number of screens and clicks.</li>
+                </ul>
+                <h3>What I Learned</h3>
+                <ul>
+                    <li>Iterations brought my client feedback to ensure that the wireframing meets their needs. </li>
+                    <li>Documentation of different iterations makes me give the client better visibility of the evolution of the design as well as the progress at each iteration. </li>
+                </ul>
+                
             </div>
         </div>
     </div>
@@ -249,6 +275,22 @@
                 $('.navigation').toggleClass('active');
                 $('.icon').toggleClass('toggle');
             })
+        })
+    </script>
+    
+    
+    <!-- Tab JS -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('ul.tabs li').click(function(){
+                var tab_id = $(this).attr('data-tab');
+                
+                $('ul.tabs li').removeClass('current');
+                $('.tab-content').removeClass('current');
+                $(this).addClass('current');
+                $("#"+tab_id).addClass('current');
+            })
+            
         })
     </script>
     

@@ -631,7 +631,7 @@ mark:hover{
     font-size: 18px;
     font-weight: 300;
     width: 780px;
-    padding-left: 95px;
+    padding-left: 115px;
     color: #ffffff;
     padding-top: 30px;
 }
@@ -659,6 +659,17 @@ mark:hover{
     font-weight: 400;
     margin-left: 0px;
     color: #333333;
+}
+
+#method_contribution ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-left: -75px;
+    color: #333333;
+    list-style-type: disc;
+    width: 850px;
 }
 
 /* Styling of Taskit */
@@ -1026,7 +1037,8 @@ mark:hover{
     font-weight: 400;
     color: #333333;
     width: 400px;
-    margin-left: 75px;
+    margin-left: 100px;
+    list-style-type: disc;
 }
 
 #v2_change_one img {
@@ -1043,7 +1055,8 @@ mark:hover{
     font-weight: 400;
     color: #333333;
     width: 400px;
-    margin-left: 75px;
+    margin-left: 100px;
+    list-style-type: disc;
 }
 
 #v2_change_two img {
@@ -1121,6 +1134,85 @@ span {
 #final_design_head {
     margin-left: 118px;
 }
+
+.final_ui {
+    width: 850px;
+    margin-left: 118px;
+    margin-top: 10px;
+}
+
+ul.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.tabs li {
+    background: #ededed;
+    color: #333333;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    padding: 15px;
+    padding-left: 160px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+ul.tabs li:hover {
+    background: #9d9d9d;
+}
+
+ul.tabs li.current {
+    background: #D4F2FD;
+    color: #ffffff;
+}
+
+.tab-content {
+    display: none;
+    background: #A7E1FB;
+}
+.tab-content.current {
+    display: inherit;
+}
+
+.reflection {
+    margin-top: 58px;
+}
+
+.reflection h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #333333;
+    margin-left: 118px;
+    margin-top: 28px;
+}
+
+.reflection h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #333333;
+    margin-left: 118px;
+    margin-top: 28px;
+}
+
+.reflection ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333; 
+    width: 850px;
+    margin-top: 0px;
+    list-style-type: disc;
+    margin-left: 28px;
+/*    margin-left: 75px;*/
+    
+}
+
 /* Styling of Hobbyup */
 
 .background_image_hobbyup {
