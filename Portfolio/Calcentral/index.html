@@ -16,6 +16,9 @@
     <!-- Hover.css -->
     <link rel="stylesheet" href="../../CSS/hover-min.css">
     
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="../../CSS/magnific-popup.css">
+    
     <!-- Custom Styling-->
     <link rel="stylesheet" href="../../CSS/style.css">
     <title>CAL Planning &amp; Scheduling</title>
@@ -56,7 +59,7 @@
         <div class="project_background_calcentral">
             <div class="background">
                 <h2>Background</h2>
-                <P></P>
+                <P>The scheduling and planning tools play an important role in making students manage their courses and academic programs. Prior to this project, all of us had exposure to the scheduling and planning systems offered by UC Berkeley. In addition to our own pains with those systems, we heard that Cal students have had many frustrations with the existing scheduling and planning tools. Therefore, we decide to dig into Cal student concerns with planning and scheduling their courses</P>
                 <div id="role_time" class="row">
                     <div class="col-xl-4">
                         <h3>My Role</h3>
@@ -74,7 +77,7 @@
                 <div id="method_contribution" class="row">
                     <div class="col-xl-12">
                         <h3>Research Methods</h3>
-                        <p>Survey &#43; Contextual Inquiry &#43; Cognitive Walkthrough &#43; Discount Usability Study &#43; Paper Prototyping</p>
+                        <p>Discount Usability Study &#43; Survey &#43; Contextual Inquiry &#43; Cognitive Walkthrough &#43; Paper Prototyping</p>
                     </div>
                 </div>
                 <div id="method_contribution" class="row">
@@ -89,7 +92,35 @@
                     </div>
                 </div>
             </div>
+            
+            <div class="process">
+            <h2>Research Process</h2>
+            <h3>Objectives</h3>
+                <ul id="objectives_calcentral">
+                    <li>To gain a deeper understanding of how and why Cal students use the existing scheduling and planning systems and interfaces through conducting usability tests on the existing tools.</li>
+                    <li>To evaluate a potential redesign of the course scheduling and planning tools of the Calcentral portal by validating assumptions about Cal students experience of scheduling and planning courses.</li>
+                </ul>
+            <h3>Phase 1&#58; Discount Usability Study</h3>
+            <p>To gain a deeper understanding of Cal student’s course scheduling and planning behaviors, we needed to understand the role existing campus tools have on their experience. To do this, we recruited 3 UC Berkeley students for a one-hour discount usability study. From comments and thoughts shared by those participants, we gleaned common behavioral patterns as follows&#58;</p>
+            <div id="insights_usabilitystudy" class="row">
+                <div class="col-xl-6">
+                    <ul>
+                    <li>Regardless of experience, all participants ran into usability issues - problems with the search interface, inability to find the tools they needed, and confusing layouts.</li>
+                    <li>All participants have solved frustrations with the system by generating their own tools: some used paper while others used excel spreadsheets.</li>
+                </ul>
+                </div>
+                <div class="col-xl-6">
+                    <a class="image-link" href="images/script_usabilitystudy.png"><img src="images/script_usabilitystudy.png" alt="the script for usability study" width="350" height="233"></a>
+                    <figcaption class="figure-caption">The Script for Discount Usability Study</figcaption>
+                </div>
+            </div>
+            <h3>Phase 2&#58; Survey</h3>
+            <p></p>
+                
+            </div>
         </div>
+        
+        
     </div>
     
     
@@ -112,6 +143,24 @@
             })
         })
     </script>
+    
+    <!-- Magnific Popuo core JS -->
+    <script src="../../JS/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.image-link').magnificPopup({
+                type:'image',
+                closeBtnInside: false,
+                closeOnContentClick: true,
+                
+                image: {
+                    verticalFit: true,
+                    cursor: 'mfp-zoom-out-cur'
+                }
+                                           });
+        })
+    </script>
+    
 </body>
 <footer>
     <div class="copyright" id="cr_portfolio">

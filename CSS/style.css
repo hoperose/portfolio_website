@@ -642,7 +642,7 @@ mark:hover{
 }
 
 #method_contribution {
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: 103px;
 }
 
@@ -670,8 +670,45 @@ mark:hover{
     color: #333333;
     list-style-type: disc;
     width: 850px;
+    margin-bottom: -28px;
 }
 
+#objectives_calcentral {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    list-style-type: disc;
+    width: 850px;
+    margin-top: 0px;
+    margin-left: 28px;
+}
+
+#insights_usabilitystudy ul{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    list-style-type: disc;
+    width: 450px;
+    margin-top: 0px;
+    margin-left: 100px; 
+}
+
+#insights_usabilitystudy img {
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
+#insights_usabilitystudy figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 50px;
+    
+}
 /* Styling of Taskit */
 
 .background_image_taskit {
