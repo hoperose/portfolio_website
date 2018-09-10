@@ -804,6 +804,51 @@ mark:hover{
     color: #333333;
     margin-left: 380px;
 }
+
+#paperprototyping {
+    margin-left: 118px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+#paperprototyping figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 350px;
+}
+
+#paperproto_two {
+    margin-left: -100px;
+}
+
+#cognitive_insights {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    list-style-type: disc;
+    width: 850px;
+    margin-top: 0px;
+    margin-left: 28px;
+}
+
+#honors_calcentral span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    margin-left: 375px;
+}
+
+#honors_calcentral img {
+    margin-left: 500px;
+}
+
+#judgement {
+    margin-left: 180px;
+}
 /* Styling of Taskit */
 
 .background_image_taskit {
