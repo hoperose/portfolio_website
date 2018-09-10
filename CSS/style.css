@@ -735,6 +735,75 @@ mark:hover{
     color: #333333;
     margin-left: 150px;
 }
+
+#insights_calcentral {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+}
+
+#contextual_advisor {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    list-style-type: disc;
+    width: 850px;
+    margin-top: 0px;
+    margin-left: 28px; 
+}
+
+#advisor_technique {
+    margin-left: 118px;
+}
+
+#advisor_technique figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 280px;
+}
+
+#technique_two {
+    margin-left: -100px;
+}
+
+#contextual_students {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    list-style-type: disc;
+    width: 850px;
+    margin-top: 0px;
+    margin-left: 28px;
+}
+
+#affinity_diagram img{
+    margin-left: 320px;
+}
+
+#affinity_diagram figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 400px;
+}
+
+#userjourney_map img {
+    margin-left: 128px;
+}
+
+#userjourney_map figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 380px;
+}
 /* Styling of Taskit */
 
 .background_image_taskit {
