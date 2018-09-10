@@ -709,6 +709,32 @@ mark:hover{
     margin-left: 50px;
     
 }
+
+#results_survey ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    list-style-type: disc;
+    width: 450px;
+    margin-top: 0px;
+    margin-left: 100px; 
+}
+
+#results_survey img {
+    margin-top: 65px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
+#results_survey figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 150px;
+}
 /* Styling of Taskit */
 
 .background_image_taskit {
