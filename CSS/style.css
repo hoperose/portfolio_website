@@ -18,12 +18,13 @@ html, body {
     text-align: center;
     padding-top: 25px;
     margin: 0;
+    margin-left: -20px;
     position: relative;
 }
 
 .landlogo {
     margin-left: 50px;
-    margin-top: -18px;
+    margin-top: -8px;
     position: relative;
 }
 
@@ -323,7 +324,7 @@ mark:hover{
     font-size: 18px;
     color: #787878;
     text-align: center;
-    margin-top: 47%;
+    margin-top: 51%;
     bottom: 0;
     position: relative;
 }
@@ -335,6 +336,7 @@ mark:hover{
     text-align: center;
     bottom: 0;
     position: relative;
+    font-weight: 300;
 }
 
 #cr_portfolio {
@@ -344,7 +346,8 @@ mark:hover{
     text-align: center;
     bottom: 0;
     position: relative;
-    margin-top: 280px;
+    margin-top: 158px;
+    font-weight: 300;
 }
 
 
@@ -357,13 +360,14 @@ mark:hover{
     position: relative;
 }*/
 
-.about {
+.about h3{
     margin-top: 180px;
     margin-bottom: 180px;
     margin-left: 180px;
     font-family: 'Lora', serif;
     font-size: 50px;
     font-weight: 700;
+    color: #333;
     
 }
 
@@ -415,6 +419,7 @@ mark:hover{
     font-size: 50px;
     font-weight: 700;
     margin-left: 180px;
+    color: #333;
 }
 
 .details {
@@ -446,6 +451,7 @@ mark:hover{
     font-family: 'Lora', serif;
     font-size: 28px;
     font-weight: 700;
+    color: #333;
 }
 
 
@@ -471,12 +477,26 @@ mark:hover{
     font-family: 'Lora', serif;
     font-size: 50px;
     font-weight: 700;
-    margin-top: 187px;
+    margin-top: 180px;
     margin-bottom: 180px;
-    margin-left: -77px;
+    margin-left: 100px;
+    color: #333;
     
 }
 
+.introduction_portfolio {
+    font-family: 'Raleway';
+    font-size: 18.5px;
+    float: right;
+    display: block;
+    margin-top: -268px;
+    margin-right: 75px;
+    margin-left: 350px;
+    padding-left: 88px;
+    width: 725px;
+    line-height: 1.85;
+    color: #333;
+}
 
 
 .card {
