@@ -1433,8 +1433,53 @@ ul.tabs li.current {
 .project_card_hobbyup h1 {
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 50px;
     color: #ffffff;
     text-align: center;
     padding-top: 33px;
 }
+
+.project_card_hobbyup p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 780px;
+    padding-left: 95px;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.project_card_hobbyup button {
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
+#back_deliverable_hobbyup {
+    margin-top: 43px;
+    margin-left: -16px;
+    position: fixed;
+}
+
+iframe {
+    margin-left: 318px;
+    margin-top: 80px;
+}
+
+
+
+/* Decipher Dragonfruit */
+
+.background_image_dragonfruit {
+    background: url(../Portfolio/Decipher_Dragonfruit/images/background_dragonfruit.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+
+/*#back_dragonfruit {
+    margin-top: 40px;
+    margin-left: -37px;
+    position: fixed;
+    
+}*/
