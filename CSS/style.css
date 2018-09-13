@@ -1476,6 +1476,26 @@ iframe {
     height: 500px;
 }
 
+.project_card_dragonfruit {
+    background: #891D5A;
+    width: 880px;
+    height: 358px;
+    display: block;
+    position: relative;
+    margin-left: 115px;
+    margin-top: -20px;
+}
+
+
+.project_card_dragonfruit h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 33px;
+}
+
 
 /*#back_dragonfruit {
     margin-top: 40px;
