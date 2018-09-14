@@ -1511,6 +1511,13 @@ iframe {
     margin-top: 50px;
 }
 
+#principles_dragonfruit h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
 /*#back_dragonfruit {
     margin-top: 40px;
     margin-left: -37px;
