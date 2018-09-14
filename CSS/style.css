@@ -1496,6 +1496,20 @@ iframe {
     padding-top: 33px;
 }
 
+.project_card_dragonfruit p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 780px;
+    padding-left: 140px;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.project_card_dragonfruit button {
+    margin-left: 380px;
+    margin-top: 50px;
+}
 
 /*#back_dragonfruit {
     margin-top: 40px;
