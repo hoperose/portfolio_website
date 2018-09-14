@@ -514,7 +514,7 @@ mark:hover{
 }
 
 #taskstore {
-    margin-left: 25px;
+    margin-top: 25px;
 }
 
 #hobbyup {
@@ -526,16 +526,16 @@ mark:hover{
 }
 
 #eslaid {
-    margin-top: 25px;
+    margin-left: 25px;
 }
 
 #infoviz {
-    margin-left: 25px;
+    margin-top: 25px;
 }
 
 
 #dragonfruit {
-    margin-top: 25px;
+    margin-left: 25px;
 }
 
 
@@ -1518,9 +1518,60 @@ iframe {
     color: #333;
 }
 
-/*#back_dragonfruit {
-    margin-top: 40px;
-    margin-left: -37px;
-    position: fixed;
+#principles_dragonfruit p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    width: 380px;
+}
+
+#principles_partial {
+    margin-left: -100px;
+}
+
+#sketching img {
+    margin-top: 28px;
+    margin-left: 110px;
+}
+
+#sketching_two {
+    float: right;
+    margin-top: -308px;
+    margin-right: 250px;
+}
+
+#graphic_assets h3{
+    margin-left: -150px;
+}
+
+#asset_one {
+    margin-left: -150px;
+    margin-top: 28px;
+}
+
+#asset_two {
+    margin-top: 18px;
+    margin-left: 28px;
+}
+
+#asset_three {
+    margin-left: -170px;
+    margin-top: 18px;
+}
+
+#asset_four {
+    margin-top: 28px;
+    margin-left: 8px;
+}
+
+#asset_five {
+  margin-top: -180px;
+  margin-left: 50px;
     
-}*/
+}
+
+#finaldesign_dragonfruit {
+    margin-left: 188px;
+    margin-top: 28px;
+}

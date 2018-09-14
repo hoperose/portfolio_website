@@ -16,6 +16,9 @@
     <!-- Hover.css -->
     <link rel="stylesheet" href="../../CSS/hover-min.css">
     
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="../../CSS/magnific-popup.css">
+    
     <!-- Custom Styling-->
     <link rel="stylesheet" href="../../CSS/style.css">
     <title>Decipher Dragon Fruit</title>
@@ -51,7 +54,7 @@
         <div class="project_card_dragonfruit">
             <h1>Decipher Dragon Fruit</h1>
             <p>An infographic design for the American people to easily learn features and interesting facts about dragon fruits.</p>
-            <button type="button" class="btn btn-outline-light btn-lg">Deliverable</button>
+            <a href="#finaldesign_dragonfruit"><button type="button" class="btn btn-outline-light btn-lg">Deliverable</button></a>
         </div>
         
         <div class="project_background_dragonfruit">
@@ -76,24 +79,49 @@
                 <div id="principles_dragonfruit" class="row">
                     <div class="col-xl-6">
                         <h4>Whimsical Layout</h4>
-                        <p></p>
+                        <p>To match the mythical and exotic appearance of dragon fruits, a whimsical layout was used to set the whole frame for the infographic.</p>
                     </div>
-                    <div class="col-xl-6">
+                    <div id="principles_partial" class="col-xl-6">
                         <h4>Gestalt Principles</h4>
-                        <p></p>
+                        <p>Proximity and closure of Gestalt principles of perception were employed to reduce the complexity and increase the interestingness of design.</p>
                     </div>
                 </div>
                 <div id="principles_dragonfruit" class="row">
                     <div class="col-xl-6">
                         <h4>Visual Hierarchy</h4>
-                        <p></p>
+                        <p>A hierarchical structure was implemented to effectively visualize the essential features and facts about dragon fruits.</p>
                     </div>
-                    <div class="col-xl-6">
+                    <div id="principles_partial" class="col-xl-6">
                         <h4>Iconic Representation</h4>
-                        <p></p>
-                        
+                        <p>A set of easily recognizable icons were used to represent the health benefits as well as recipes of dragon fruits.</p> 
                     </div>
                 </div>
+                <div class="row">
+                <div id="sketching" class="col-xl-8">
+                <h3>Sketching</h3>
+
+                    <div class="col-xl-4">
+                        <img src="images/sketch_1.jpg" alt="sketching one" width="210" height="280">
+                    </div>
+                    <div id="sketching_two" class="col-xl-4">
+                        <img src="images/sketch_2.jpg" alt="sketching two" width="210" height="280">
+                    </div>
+                </div>
+                <div id="graphic_assets" class="col-xl-4">
+                    <h3>Graphic Assets</h3>
+                    <img id="asset_one" src="images/flesh&peel.png" width="175" height="88">
+                    <img id="asset_two" src="images/flesheat.png" width="98" height="98">
+                    <div id="graphic_assets" class="col-xl-4">
+                    <img id="asset_three" src="images/dragonfruit.png" width="108" height="146">
+                    <img id="asset_four" src="images/bud.png" width="88" height="101">
+                    <img id="asset_five" src="images/flower.png" width="88" height="88">
+                    </div>
+                    </div>
+                </div>
+                <div class="space"></div>
+                <h3>Final Design</h3>
+                 <a class="image-link" href="images/narrative_decipherdragonfruit.jpg"><img id="finaldesign_dragonfruit" src="images/narrative_decipherdragonfruit.jpg" width="750" height="1160"></a>
+                
             </div>
         </div>
     </div>
@@ -115,6 +143,23 @@
                 $('.navigation').toggleClass('active');
                 $('.icon').toggleClass('toggle');
             })
+        })
+    </script>
+    
+    <!-- Magnific Popuo core JS -->
+    <script src="../../JS/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.image-link').magnificPopup({
+                type:'image',
+                closeBtnInside: false,
+                closeOnContentClick: true,
+                
+                image: {
+                    verticalFit: true,
+                    cursor: 'mfp-zoom-out-cur'
+                }
+                                           });
         })
     </script>
 </body>
