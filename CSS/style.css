@@ -196,6 +196,21 @@ li {
     font-style: oblique;
 }
 
+#portfolio_nav ul {
+    list-style-type: none;
+    font-family: 'Open Sans';
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 18px;
+    margin-top: 5%;
+    padding-left: 10%;
+}
+
+#portfolio_nav li {
+    margin: 0 0 28px 0;
+}
+
+
 .contact {
     margin-left: 130px;
     margin-right: -83px;
@@ -412,9 +427,11 @@ mark:hover{
 }
 
 .bio {
-    margin-bottom: 588px;
+    margin-bottom: 158px;
 }
-.story {
+
+
+.story h3{
     font-family:'Lora', serif;
     font-size: 50px;
     font-weight: 700;
@@ -436,6 +453,27 @@ mark:hover{
     color: #B82867;
     text-decoration: none;
 }
+
+.resume button {
+    background-color: #ffffff;
+    color: #B82867;
+    border: 2px solid #B82867;
+    margin-left: 535px;
+    border-radius: 8px;
+    padding: 18px 28px;
+    font-size: 28px;
+    font-family:'Lora', serif;
+    font-weight: 700;
+    margin-top: 39px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.resume button:hover {
+    background-color: #B82867;
+    color: #ffffff;
+}
+
 
 .site {
     background-color: #f9e6ee;
@@ -1465,6 +1503,13 @@ iframe {
     margin-top: 80px;
 }
 
+.background a {
+    color: #B82867;
+}
+
+#challenge {
+    font-weight: 700;
+}
 
 
 /* Decipher Dragonfruit */
