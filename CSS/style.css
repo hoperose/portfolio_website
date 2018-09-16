@@ -24,7 +24,7 @@ html, body {
 
 .landlogo {
     margin-left: 50px;
-    margin-top: -8px;
+    margin-top: -21px;
     position: relative;
 }
 
@@ -52,8 +52,8 @@ a #logobadge {
 
 
 #logo_portfolio {
-    margin-left: -28px;
-    margin-top: -94px;
+    margin-left: -35px;
+    margin-top: -89px;
     display: block;
     position: fixed;
 }
@@ -196,6 +196,10 @@ li {
     font-style: oblique;
 }
 
+.navigation ul {
+    width: 280px;
+}
+
 #portfolio_nav ul {
     list-style-type: none;
     font-family: 'Open Sans';
@@ -204,6 +208,7 @@ li {
     padding-top: 18px;
     margin-top: 5%;
     padding-left: 10%;
+    width: 280px;
 }
 
 #portfolio_nav li {
@@ -236,8 +241,24 @@ li {
     transform: scale(1);
 }
 
+#contact_email {
+    width: 20px;
+}
+
 .connect {
     float: right;
+}
+
+#social_connection {
+    margin-left: 308px;
+}
+
+#social_connection a{
+    width: 70px;
+}
+
+#social_twitter {
+    margin-left: -15px;
 }
 
 .split {
@@ -339,7 +360,7 @@ mark:hover{
     font-size: 18px;
     color: #787878;
     text-align: center;
-    margin-top: 51%;
+    margin-top: 46%;
     bottom: 0;
     position: relative;
 }
