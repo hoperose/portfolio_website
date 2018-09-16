@@ -389,6 +389,10 @@ mark:hover{
 
 
 
+
+
+
+
 /* Styling of About Page */
 
 /*.about {
@@ -667,6 +671,7 @@ mark:hover{
     position: fixed;
     margin-top: -440px;
     margin-left: -35px;
+    z-index: 1;
 }
 
 .hvr-icon-back {
@@ -1532,6 +1537,73 @@ iframe {
     font-weight: 700;
 }
 
+/* COMING SOON */
+
+.coming_soon {
+    background: #00d9c8;
+    background-size: cover;
+    width: 1440px;
+    height: 680px;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    left: 0;
+    margin-top: -80px;
+    opacity: 0.8;
+}
+
+.coming_soon h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 58px;
+    margin-left: 390px;
+}
+
+.coming_soon div {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+  margin-left: 95px;
+  margin-top: 28px;
+}
+
+.coming_soon span {
+    display: block;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+#days {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 700; 
+}
+
+#hours {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 700; 
+}
+
+#minutes {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 700; 
+}
+
+#seconds {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 700; 
+}
 
 /* Decipher Dragonfruit */
 

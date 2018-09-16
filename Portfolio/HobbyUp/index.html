@@ -7,6 +7,18 @@
     <meta name="author" content="Qian Yu">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    
+    <!-- favicon -->
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut favicon" href="http://qianyuswork.com/favicon.ico">
+    
     <!-- Bootstrap 4 CDN-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     
@@ -89,6 +101,21 @@
         <div class="process">
             <h2>Design Process</h2>
         </div>
+        
+    </div>
+    
+     <!-- Coming Soon -->
+    <div class="coming_soon">
+            <!--<div class="topleft">
+                <img src="../../images/logo_update.png" alt="logo for coming_soon page" height="38" width="38">
+            </div>-->
+            <h1>COMING SOON</h1>
+        <div id="timer">
+            <div id="days"></div>
+            <div id="hours"></div>
+            <div id="minutes"></div>
+            <div id="seconds"></div>
+        </div>
     </div>
     
     <script src="../../JS/main.js"></script>
@@ -110,6 +137,40 @@
             })
         })
     </script>
+    
+    <!-- Timer -->
+    <script type="text/javascript">
+        $(document).ready(function makeTimer() {
+            var endTime = new Date("22 September 2018 20:00:00 GMT+01:00");
+            endTime = (Date.parse(endTime) / 1000);
+            var now = new Date();
+            now = (Date.parse(now)/1000);
+            var timeLeft = endTime - now;
+            var days = Math.floor(timeLeft / 86400);
+            var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+            var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60);
+            var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+            if (hours < "10") { hours = "0" + hours; }
+            if (minutes < "10") { minutes = "0" + minutes; }
+            if (seconds < "10") { seconds = "0" + seconds; }
+            
+            $("#days").html(days + "<span>Days</span>");
+            $("#hours").html(hours + "<span>Hours</span>");
+            $("#minutes").html(minutes + "<span>Minutes</span>");
+            $("#seconds").html(seconds + "<span>Seconds</span>");
+            
+            setInterval(function() {makeTimer();}, 1000);
+	   });
+        
+        
+                          
+//       setInterval(function() { makeTimer();}, 1000);
+        
+    </script>
+    
+    
+    
+    
 </body>
 <footer>
     <div class="copyright" id="cr_portfolio">
