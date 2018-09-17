@@ -1797,3 +1797,248 @@ iframe {
     color: #ffffff;
     font-weight: 400;
 }
+
+/* InfoViz */
+
+.background_image_infoviz {
+    background: url(../Portfolio/Infoviz/images/infoviz_background.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px; 
+}
+
+.project_card_infoviz {
+    background: #5cade5;
+    width: 880px;
+    height: 358px;
+    display: block;
+    position: relative;
+    margin-left: 115px;
+    margin-top: -20px;
+}
+
+.project_card_infoviz h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.project_card_infoviz p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 780px;
+    padding-left: 140px;
+    color: #ffffff;
+    padding-top: 30px;
+} 
+
+.project_card_infoviz button {
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
+/* COMING SOON */
+
+.coming_soon_infoviz {
+    background: #5cade5;
+    background-size: cover;
+    width: 1440px;
+    height: 680px;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    left: 0;
+    margin-top: 18px;
+    opacity: 0.8;
+}
+
+.coming_soon_infoviz h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 58px;
+    margin-left: 390px;
+}
+
+.coming_soon_infoviz div {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+  margin-left: 95px;
+  margin-top: 28px;
+}
+
+.coming_soon_infoviz span {
+    display: block;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+/* ESL Aid */
+
+.background_image_eslaid {
+    background: url(../Portfolio/EslAid/images/ESLAid_background.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px; 
+}
+
+.project_card_eslaid {
+    background: #EF9830;
+    width: 880px;
+    height: 358px;
+    display: block;
+    position: relative;
+    margin-left: 115px;
+    margin-top: -20px;
+}
+
+.project_card_eslaid h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.project_card_eslaid p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 780px;
+    padding-left: 140px;
+    color: #ffffff;
+    padding-top: 30px;
+} 
+
+.project_card_eslaid button {
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
+.coming_soon_eslaid {
+    background: #EF9830;
+    background-size: cover;
+    width: 1440px;
+    height: 680px;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    left: 0;
+    margin-top: 18px;
+    opacity: 0.8;
+}
+
+.coming_soon_eslaid h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 58px;
+    margin-left: 390px;
+}
+
+.coming_soon_eslaid div {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+  margin-left: 95px;
+  margin-top: 28px;
+}
+
+.coming_soon_eslaid span {
+    display: block;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+/* Sounds Like Fun */
+
+.background_image_soundslikefun {
+    background: url(../Portfolio/Soundslikefun/soundslikefun_background.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px; 
+}
+
+.project_card_soundslikefun {
+    background: #3d3dff;
+    width: 880px;
+    height: 358px;
+    display: block;
+    position: relative;
+    margin-left: 115px;
+    margin-top: -20px;
+}
+
+.project_card_soundslikefun h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.project_card_soundslikefun p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 780px;
+    padding-left: 140px;
+    color: #ffffff;
+    padding-top: 30px;
+} 
+
+.project_card_soundslikefun button {
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
+.coming_soon_soundslikefun {
+    background: #3d3dff;
+    background-size: cover;
+    width: 1440px;
+    height: 680px;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    left: 0;
+    margin-top: 18px;
+    opacity: 0.8;
+}
+
+.coming_soon_soundslikefun h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 58px;
+    margin-left: 390px;
+}
+
+.coming_soon_soundslikefun div {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+  margin-left: 95px;
+  margin-top: 28px;
+}
+
+.coming_soon_soundslikefun span {
+    display: block;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 400;
+}
