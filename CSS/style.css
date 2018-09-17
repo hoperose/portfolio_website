@@ -1539,7 +1539,7 @@ iframe {
 
 /* COMING SOON */
 
-.coming_soon {
+.coming_soon_hobbyup {
     background: #00d9c8;
     background-size: cover;
     width: 1440px;
@@ -1552,7 +1552,7 @@ iframe {
     opacity: 0.8;
 }
 
-.coming_soon h1 {
+.coming_soon_hobbyup h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 58px;
     font-weight: 700;
@@ -1561,7 +1561,7 @@ iframe {
     margin-left: 390px;
 }
 
-.coming_soon div {
+.coming_soon_hobbyup div {
   display: inline-block;
   line-height: 1;
   padding: 20px;
@@ -1570,7 +1570,7 @@ iframe {
   margin-top: 28px;
 }
 
-.coming_soon span {
+.coming_soon_hobbyup span {
     display: block;
     font-size: 28px;
     color: #ffffff;
@@ -1712,4 +1712,88 @@ iframe {
 #finaldesign_dragonfruit {
     margin-left: 188px;
     margin-top: 28px;
+}
+
+/* TaskStore */
+
+.background_image_taskstore {
+   background: url(../Portfolio/TaskStore/images/taskstore_background.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px; 
+}
+
+.project_card_taskstore {
+    background: #C2C8FF;
+    width: 880px;
+    height: 358px;
+    display: block;
+    position: relative;
+    margin-left: 115px;
+    margin-top: -20px;
+}
+
+.project_card_taskstore h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.project_card_taskstore p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 780px;
+    padding-left: 140px;
+    color: #ffffff;
+    padding-top: 30px;
+} 
+
+.project_card_taskstore button {
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
+
+/* COMING SOON */
+
+.coming_soon_taskstore {
+    background: #C2C8FF;
+    background-size: cover;
+    width: 1440px;
+    height: 680px;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    left: 0;
+    margin-top: 18px;
+    opacity: 0.8;
+}
+
+.coming_soon_taskstore h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 58px;
+    margin-left: 390px;
+}
+
+.coming_soon_taskstore div {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+  margin-left: 95px;
+  margin-top: 28px;
+}
+
+.coming_soon_taskstore span {
+    display: block;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 400;
 }
