@@ -1582,6 +1582,27 @@ iframe {
     font-weight: 300;
 }
 
+#survey {
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+#survey img {
+    margin-left: 118px;
+    position: absolute;
+
+}
+
+#survey h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin-right: 235px;
+    margin-top: 18px;
+}
 /* COMING SOON */
 
 .coming_soon_hobbyup {
