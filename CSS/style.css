@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Frank+Ruhl+Libre:400,500,700,900|Karla|Lora:400,700|Open+Sans:300,400,600,700|PT+Sans:400,700|PT+Serif:400,700|Source+Sans+Pro:400,600,700|Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Frank+Ruhl+Libre:400,500,700,900|Karla|Lora:400,700|Open+Sans:300,400,600,700|PT+Sans:400,700|PT+Serif:400,700|Source+Sans+Pro:400,600,700|Playfair+Display:400,700|Lato:400,700,900');
 
 
 html, body {
@@ -17,15 +17,15 @@ html, body {
     font-size: 32px;
     text-align: center;
     padding-top: 25px;
-    margin: 0;
-    margin-left: -20px;
-    position: relative;
+    margin: 0px;
+    margin-left: 560px;
+    position: fixed;
 }
 
 .landlogo {
     margin-left: 50px;
-    margin-top: -21px;
-    position: relative;
+    margin-top: 38px;
+    position: fixed;
 }
 
 
@@ -360,9 +360,10 @@ mark:hover{
     font-size: 18px;
     color: #787878;
     text-align: center;
-    margin-top: 46%;
+    margin-top: 51%;
     bottom: 0;
     position: relative;
+    font-weight: 300;
 }
 
 #about {
@@ -404,7 +405,7 @@ mark:hover{
     margin-top: 180px;
     margin-bottom: 180px;
     margin-left: 180px;
-    font-family: 'Lora', serif;
+    font-family: 'Lato', sans-serif;
     font-size: 50px;
     font-weight: 700;
     color: #333;
@@ -412,7 +413,7 @@ mark:hover{
 }
 
 .introduction {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 18.5px;
     float: right;
     display: block;
@@ -457,7 +458,7 @@ mark:hover{
 
 
 .story h3{
-    font-family:'Lora', serif;
+    font-family:'Lato', sans-serif;
     font-size: 50px;
     font-weight: 700;
     margin-left: 180px;
@@ -465,7 +466,7 @@ mark:hover{
 }
 
 .details {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     display: block;
     margin-left: 180px;
@@ -511,7 +512,7 @@ mark:hover{
     margin-left: 180px;
     padding-top: 60px;
     margin-top: -50px;
-    font-family: 'Lora', serif;
+    font-family: 'Lato', sans-serif;
     font-size: 28px;
     font-weight: 700;
     color: #333;
@@ -538,7 +539,7 @@ mark:hover{
 
 
 #aboutPortfolio {
-    font-family: 'Lora', serif;
+    font-family: 'Lato', sans-serif;
     font-size: 50px;
     font-weight: 700;
     margin-top: 180px;
@@ -549,15 +550,16 @@ mark:hover{
 }
 
 .introduction_portfolio {
-    font-family: 'Raleway';
+    font-family: 'Open Sans', sans-serif;
     font-size: 18.5px;
+    font-weight: 300;
     float: right;
     display: block;
     margin-top: -268px;
     margin-right: 75px;
     margin-left: 350px;
     padding-left: 88px;
-    width: 725px;
+    width: 710px;
     line-height: 1.85;
     color: #333;
 }
@@ -640,15 +642,16 @@ mark:hover{
 
 
 .card-title {
-    font-family: 'Lora', serif;
+    font-family: 'Frank Ruhl Libre', serif;
     font-weight: 700;
     font-size: 22px;
 /*    font-stretch: semi-expanded;*/
 }
 
 .card-text {
-    font-family: 'Raleway';
+    font-family: 'Open Sans', sans-serif;
     font-size: 13.5px;
+    font-weight: 300;
 }
 
 #portfolio {
@@ -1535,6 +1538,48 @@ iframe {
 
 #challenge {
     font-weight: 700;
+}
+
+#brainstorm {
+    margin-left: 28px;
+}
+
+#brainstorm img {
+    margin-left: 180px;
+    margin-top: 18px;
+}
+
+#brainstorm p {
+    width: 220px;
+    font-weight: 300;
+}
+
+#idearanking {
+    margin-left: -88px;
+}
+
+#idearanking img {
+    margin-left: 180px;
+    margin-top: 18px;
+}
+
+#idearanking p {
+    width: 220px;
+    font-weight: 300;
+}
+
+#selected_idea {
+    margin-left: -88px;
+}
+
+#selected_idea img {
+    margin-left: 180px;
+    margin-top: 18px;
+}
+
+#selected_idea p {
+    width: 220px;
+    font-weight: 300;
 }
 
 /* COMING SOON */
