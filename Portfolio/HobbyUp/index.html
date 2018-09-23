@@ -2,20 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <title>HobbyUp</title>
     <meta name="keywords" content="Qian Yu UC Berkeley, UX, Product Design, Design Research">
     <meta name="description" content="Qian Yu's Personal Website">
     <meta name="author" content="Qian Yu">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126193347-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-126193347-1');
-    </script>
 
     
     <!-- favicon -->
@@ -40,7 +31,15 @@
     
     <!-- Custom Styling-->
     <link rel="stylesheet" href="../../CSS/style.css">
-    <title>HobbyUp</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126193347-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126193347-1');
+    </script>
 </head>
     
 <body>
@@ -110,7 +109,7 @@
         
         <div class="process">
             <h2>Design Process</h2>
-  <!--          <h3>Ideation</h3>
+<!--            <h3>Ideation</h3>
             <p>We collaboratively framed the problem statement and assumption by following the Lean UX principles. With very open ended prompt and the broad scope of target user, the promising idea <span>Hobby Connection</span> was selected with the following ideation process:</p>
             <div class="row">
                 <div id="brainstorm" class="col-xl-4">
@@ -131,27 +130,40 @@
             <p>With the hobby connection idea, we assumed that hobbies can be the key to motivate people (especially for those who are new to communities) to connect to others in communities.</p>
             <p>Three main questions - <span>how do people experience finding companions to pursue hobbies</span>, <span>what problems do they face in looking for hobby companions</span>, and <span>what tools have they used to find companions</span> were used to guide the idea validation through conducting user research.</p>
             <div id="interview" class="row">
-                <div class="col-xl-6">
+                <div id="interview_one" class="col-xl-6">
                     <img src="images/meeting.png" width="58" height="58">
                     <h4>In-depth Interview</h4>
                     <p>To discover how people experience pursuing hobbies with companions, the team conducted 15 in-person interviews within one week at the Easy Bay area by following the guerrilla research approach.</p>
                 </div>
                 <div class="col-xl-6">
                     <ul>
+                        <li>The new living environment and busy schedules are two major obstacles for finding companions to pursue hobbies.</li>
+                        <li>The existing social media doesn’t work well in helping the user to find companions to pursue hobbies.</li>
+                        <li>Most people are open to new hobbies as well as meeting new friends via pursuing hobbies.</li>
                     </ul>
                 </div>
             </div>
             <div id="survey" class="row">
-                <div class="col-xl-6">
+                <div id="survey_one" class="col-xl-6">
                     <img src="images/survey.png" width="58" height="58">
                     <h4>Survey</h4>
                     <p>To validate the qualitative research findings as well as help the user to build effective hobby connection product, the team created a survey to gather people’s opinions on hobby pursuing with companions. 145 valid responses were collected via Google Surveys within four days.</p>
                 </div>
                 <div class="col-xl-6">
                     <ul>
+                        <li>54%(15% were neutral) of respondents struggle to find companions in their communities to pursue hobbies.</li>
+                        <li>59.6% of respondents prefer to use social media websites to look for companions who have similar hobbies.</li>
+                        <li>43.5%(40% were neutral) of respondents are feel comfortable to pursue hobbies with those they don’t know or have just met.</li>
                     </ul>
                 </div>
-            </div>-->
+            </div>
+            <p>Three existing products - <i>WeGoDo</i>, <i>Meetin</i> and <i>Meetup</i> which  aims at connecting people with their hobbies and interests were identified from the interview. With these competitor products, we conducted the following competitor analysis based on three key factors - Hobby Choice, Activity Choice, and Schedule Flexibility which users value most, to have a better understanding of how the existing market satisfies the user's needs as well as inform our design solutions.</p>
+            <img id="competitive_analysis" src="images/competitor_analysis.png" alt="competitive analysis" width="715" height="399">
+            <div class="space"></div>
+            <h3>Design Solution</h3>
+            <p>Being informed by the insights uncovered in the user research, we decided to design the product as <span>a geolocated social platform with which people can get a plethora hobby choices and potential companions as well as freedom of selecting when, where and with whom they'd like to pursue hobbies in their communities</span>.</p>
+            <div class="space"></div>
+            <h3>Interaction Design</h3>-->
         </div>
         
     </div>
@@ -192,7 +204,7 @@
     <!-- Timer -->
     <script type="text/javascript">
         $(document).ready(function makeTimer() {
-            var endTime = new Date("22 September 2018 20:00:00 GMT+01:00");
+            var endTime = new Date("23 September 2018 20:00:00 GMT-08:00");
             endTime = (Date.parse(endTime) / 1000);
             var now = new Date();
             now = (Date.parse(now)/1000);

@@ -2,20 +2,22 @@
 <html lang="en">
     <head>
     <meta charset="utf-8">
+    <title>TaskStore</title>
     <meta name="keywords" content="Qian Yu UC Berkeley, UX, Product Design, Design Research">
     <meta name="description" content="Qian Yu's Personal Website">
     <meta name="author" content="Qian Yu">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126193347-1"></script>
-        <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-126193347-1');
-        </script>
+    <!-- favicon -->
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut favicon" href="http://qianyuswork.com/favicon.ico">
     
         
     <!-- Bootstrap 4 CDN-->
@@ -29,7 +31,15 @@
     
     <!-- Custom Styling-->
     <link rel="stylesheet" href="../../CSS/style.css">
-    <title>TaskStore</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126193347-1"></script>
+        <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126193347-1');
+        </script>
 </head>
 <body>
     <div class="background_image_taskstore"></div>
@@ -102,7 +112,7 @@
     
         <script type="text/javascript">
         $(document).ready(function makeTimer() {
-            var endTime = new Date("24 September 2018 20:00:00 GMT+01:00");
+            var endTime = new Date("24 September 2018 20:00:00 GMT-08:00");
             endTime = (Date.parse(endTime) / 1000);
             var now = new Date();
             now = (Date.parse(now)/1000);

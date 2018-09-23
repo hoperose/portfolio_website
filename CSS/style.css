@@ -24,14 +24,14 @@ html, body {
 
 .landlogo {
     margin-left: 50px;
-    margin-top: 38px;
+    margin-top: 50px;
     position: fixed;
 }
 
 
 .logo {
     margin-left: 50px;
-    margin-top: -88px;
+    margin-top: -79px;
     display: block;
     width: 50px;
     height: 50px;
@@ -53,7 +53,7 @@ a #logobadge {
 
 #logo_portfolio {
     margin-left: -35px;
-    margin-top: -89px;
+    margin-top: -79px;
     display: block;
     position: fixed;
 }
@@ -360,7 +360,7 @@ mark:hover{
     font-size: 18px;
     color: #787878;
     text-align: center;
-    margin-top: 51%;
+    margin-top: 58%;
     bottom: 0;
     position: relative;
     font-weight: 300;
@@ -1610,9 +1610,27 @@ iframe {
     font-weight: 300;
 }
 
+#interview ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 450px;
+    list-style: disc;
+    margin-left: -45px;
+    display: block;
+}
+
+#interview_one {
+    margin-top: 80px;
+}
+
 #survey {
     margin-top: 25px;
     margin-left: -10px;
+}
+
+#survey_one {
+    margin-top: 70px;
 }
 
 #survey img {
@@ -1637,6 +1655,22 @@ iframe {
     width: 400px;
     font-weight: 300;
 }
+
+#survey ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 450px;
+    list-style: disc;
+    margin-left: -45px;
+    display: block;
+}
+
+#competitive_analysis {
+    margin-left: 150px;
+    margin-top: 18px;
+}
+
 /* COMING SOON */
 
 .coming_soon_hobbyup {
