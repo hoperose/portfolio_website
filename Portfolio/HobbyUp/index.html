@@ -29,6 +29,9 @@
     <!-- Hover.css -->
     <link rel="stylesheet" href="../../CSS/hover-min.css">
     
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="../../CSS/magnific-popup.css">
+    
     <!-- Custom Styling-->
     <link rel="stylesheet" href="../../CSS/style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -163,7 +166,24 @@
             <h3>Design Solution</h3>
             <p>Being informed by the insights uncovered in the user research, we decided to design the product as <span>a geolocated social platform with which people can get a plethora hobby choices and potential companions as well as freedom of selecting when, where and with whom they'd like to pursue hobbies in their communities</span>.</p>
             <div class="space"></div>
-            <h3>Interaction Design</h3>-->
+            <h3>Interaction Design</h3>
+            <p>To better incorporate the user-centered design into the product design process, personas were created on the basis of two types of users learned from the user research.</p>
+            <div id="personas" class="row">
+                <div id="persona_one" class="col-xl-6">
+                    <a class="image-link" href="images/persona_one.png"><img src="images/persona_one.png" alt="persona one" width="400" height="297"></a>
+                </div>
+                <div id="persona_two" class="col-xl-6">
+                    <a class="image-link" href="images/persona_two.png"><img src="images/persona_two.png" alt="persona two" width="400" height="297"></a>
+                </div>
+                <figcaption class="figure-caption">Two Types of Personas</figcaption>
+            </div>
+            <div id="site_map">
+                <p>With regard to the personas, the team brainstormed the features which our product should have. Then, the following sitemap was created to show the structure of the social platform application we were designing.</p>
+                <img src="images/sitemap.png" alt="sitemap" width="715" height="454">
+            </div>
+            <div id="low_fi">
+                <p>Being guided by the sitemap, we proceed with designing for an intuitive experience with more concrete interactive flows and UI elements. I created a set of low fidelity mockups with Balsamiq by incorporating sketches shared by other team members.</p>
+            </div>-->
         </div>
         
     </div>
@@ -201,10 +221,27 @@
         })
     </script>
     
+    <!-- Magnific Popuo core JS -->
+    <script src="../../JS/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.image-link').magnificPopup({
+                type:'image',
+                closeBtnInside: false,
+                closeOnContentClick: true,
+                
+                image: {
+                    verticalFit: true,
+                    cursor: 'mfp-zoom-out-cur'
+                }
+                                           });
+        })
+    </script>
+    
     <!-- Timer -->
     <script type="text/javascript">
         $(document).ready(function makeTimer() {
-            var endTime = new Date("23 September 2018 20:00:00 GMT-08:00");
+            var endTime = new Date("24 September 2018 20:00:00 GMT-08:00");
             endTime = (Date.parse(endTime) / 1000);
             var now = new Date();
             now = (Date.parse(now)/1000);

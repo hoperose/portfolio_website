@@ -1675,6 +1675,44 @@ iframe {
     margin-top: 18px;
 }
 
+#persona_one img{
+    margin-top: 18px;
+    margin-left: 128px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
+#persona_two img{
+        margin-top: 18px;
+    margin-right: 280px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
+#personas figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 470px;
+    margin-top: 15px;
+}
+
+#site_map {
+    margin-top: 28px;
+}
+
+#site_map img {
+    margin-left: 150px;
+    margin-top: 18px;
+}
+
+#low_fi {
+    margin-top: 28px;
+}
+
 /* COMING SOON */
 
 .coming_soon_hobbyup {
