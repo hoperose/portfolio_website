@@ -1718,6 +1718,20 @@ iframe {
     margin-top: 18px;
 }
 
+#adjustedflow_one {
+    margin-left: 150px;
+    margin-top: 18px;
+}
+
+#flow_one_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 350px;
+    margin-top: 15px;
+}
+
 /* COMING SOON */
 
 .coming_soon_hobbyup {

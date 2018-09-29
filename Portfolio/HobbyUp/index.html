@@ -112,7 +112,7 @@
         
         <div class="process">
             <h2>Design Process</h2>
-            <h3>Ideation</h3>
+<!--            <h3>Ideation</h3>
             <p>We collaboratively framed the problem statement and assumption by following the Lean UX principles. With very open ended prompt and the broad scope of target user, the promising idea <span>Hobby Connection</span> was selected with the following ideation process:</p>
             <div class="row">
                 <div id="brainstorm" class="col-xl-4">
@@ -183,11 +183,19 @@
             </div>
             <div id="low_fi">
                 <p>Being guided by the sitemap, we proceed with designing for an intuitive experience with more concrete interactive flows and UI elements. I created the following set of low fidelity mockups with Balsamiq by incorporating sketches shared by other team members.</p>
-                <img src="images/low-fi.png" alt="low fidelity" width="715" height="474">
+                <a class="image-link" href="images/low-fi.png"><img src="images/low-fi.png" alt="low fidelity" width="715" height="474"></a>
             </div>
             <div class="space"></div>
             <h4>Testing &amp; Iterating</h4>
-            <p>The POP app was used to convert these low-fi mockups into a clickable prototype that can be played by the user via their mobile devices. <span>The first round of usability testing</span> was conducted with 15 target users (each team member worked with testing three users). After politely reaching out to the user and introducing the features of this product, we asked them to perform the task finding potential matches to pursue hobbies. During this process, we encouraged the participants to think out loud. Even though the testing task seemed very straightforward, users met different blockers and problems which were reflected on the following comments.</p>
+            <p>The POP app was used to convert these low-fi mockups into a clickable prototype that can be played by the user via their mobile devices. <span>The first round of usability testing</span> was conducted with 15 target users (each team member worked with testing three users). After politely reaching out to the user and introducing the features of this product, we asked them to perform the task finding potential matches to pursue hobbies. During this process, we encouraged the participants to think out loud. While the testing task seemed very straightforward, users met different blockers and problems which were mainly reflected on the following comments:</p>
+            <p><q><i>It seems that I can only find individual companions from the potential matches. How about groups (for hobbies)?</i></q><br>
+                <q><i>I can't find the option of choosing or forming a group. Do I need to add 11 people one by one if I want to play soccer?</i></q><br>
+                <q><i>It is not that easy to reach the icons on the top with single hand use.</i></q>
+            </p>
+            <p>Being informed by the user feedback from the first round usability testing, <span>we mainly adjusted the layout of navigation icons and modified the "potential matchings" flow</span>. As shown in the following figure: a bottom navigation bar has been designed for four main features - Home, My Account, My Groups and Messaging of this application. The modified potential matchings flow is composed of individuals, groups, and a button to create groups after the user select a hobby. Meanwhile, the user will be provided with three ways (i.e., join as an individual, with a friend, or with a group) to join groups.</p>
+            <img id="adjustedflow_one"src="images/bottomnav_groupflow.png" alt="bottom navigation & adjusted group flow" width="715" height="710">
+            <figcaption id="flow_one_caption" class="figure-caption">The adjusted navigation bar &amp; the potential matching flow </figcaption>-->
+            
         </div>
         
     </div>
@@ -195,7 +203,7 @@
     
     
      <!-- Coming Soon -->
-  <!--  <div class="coming_soon_hobbyup">
+    <div class="coming_soon_hobbyup">
             <h1>COMING SOON</h1>
         <div id="timer">
             <div id="days"></div>
@@ -203,7 +211,7 @@
             <div id="minutes"></div>
             <div id="seconds"></div>
         </div>
-    </div>-->
+    </div>
     
     <script src="../../JS/main.js"></script>
     <!-- jQuery lib -->
@@ -245,7 +253,7 @@
     <!-- Timer -->
     <script type="text/javascript">
         $(document).ready(function makeTimer() {
-            var endTime = new Date("25 September 2018 22:00:00 GMT-08:00");
+            var endTime = new Date("29 September 2018 22:00:00 GMT-08:00");
             endTime = (Date.parse(endTime) / 1000);
             var now = new Date();
             now = (Date.parse(now)/1000);
