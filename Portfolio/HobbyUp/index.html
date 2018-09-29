@@ -112,7 +112,7 @@
         
         <div class="process">
             <h2>Design Process</h2>
-<!--            <h3>Ideation</h3>
+            <h3>Ideation</h3>
             <p>We collaboratively framed the problem statement and assumption by following the Lean UX principles. With very open ended prompt and the broad scope of target user, the promising idea <span>Hobby Connection</span> was selected with the following ideation process:</p>
             <div class="row">
                 <div id="brainstorm" class="col-xl-4">
@@ -194,8 +194,16 @@
             </p>
             <p>Being informed by the user feedback from the first round usability testing, <span>we mainly adjusted the layout of navigation icons and modified the "potential matchings" flow</span>. As shown in the following figure: a bottom navigation bar has been designed for four main features - Home, My Account, My Groups and Messaging of this application. The modified potential matchings flow is composed of individuals, groups, and a button to create groups after the user select a hobby. Meanwhile, the user will be provided with three ways (i.e., join as an individual, with a friend, or with a group) to join groups.</p>
             <img id="adjustedflow_one"src="images/bottomnav_groupflow.png" alt="bottom navigation & adjusted group flow" width="715" height="710">
-            <figcaption id="flow_one_caption" class="figure-caption">The adjusted navigation bar &amp; the potential matching flow </figcaption>-->
-            
+            <figcaption id="flow_one_caption" class="figure-caption">The adjusted navigation bar &amp; the potential matching flow </figcaption>
+            <p>With the modified higher fidelity mockups, we ran <span>a second round usability testing</span> with another 10 users. With the bottom navigation and the modified potential matchings flow, users reported fewer problems than those from the first round usability testing. Nevertheless, there still existed two problems: One was for how to manage groups with a joining setup. The other was that some users found the potential matchings flow including individuals and groups together was a bit complicated.</p>
+            <p>To fix the first problem, <span>an open/closed feature</span> has been added to the creating new groups flow as follows&#58;</p>
+            <img id="open_close_feature" src="images/open_close_feature.png" alt="open close feature" width="450" height="530">
+            <figcaption id="flow_two_caption" class="figure-caption">The open/close feature for creating new groups</figcaption>
+            <p>To address the second problem, we designed a following alternative option for the potential matches flow that places the individual and group matches on two separate pages. Then, we used the Keystroke-Level Model (KLM) to test the optimal task performance between the original one and its alternative. Specifically, we modeled each choice the user has to make by a mental task and added distraction operators each time there are many things (e.g., a list of attractive hobbies or other user profiles) displayed on screen. <span>It turned out that the option one which cost the user 21.67 sec is more efficient than the option two (i.e., 27.68 sec)</span>. Therefore, the potential matching flow was designed with individual and group matches on the same page.</p>
+            <img id="KML_test" src="images/KML.png" alt="two options with KML" width="715" height="407">
+            <figcaption id="KML_caption" class="figure-caption">Two options for the potential matchings flow</figcaption>
+            <div class="space"></div>
+            <h4>Heuristic Evaluation</h4>
         </div>
         
     </div>
@@ -203,7 +211,7 @@
     
     
      <!-- Coming Soon -->
-    <div class="coming_soon_hobbyup">
+    <!--<div class="coming_soon_hobbyup">
             <h1>COMING SOON</h1>
         <div id="timer">
             <div id="days"></div>
@@ -211,7 +219,7 @@
             <div id="minutes"></div>
             <div id="seconds"></div>
         </div>
-    </div>
+    </div>-->
     
     <script src="../../JS/main.js"></script>
     <!-- jQuery lib -->

@@ -1732,6 +1732,33 @@ iframe {
     margin-top: 15px;
 }
 
+#open_close_feature {
+    margin-left: 300px;
+    margin-top: 18px;
+}
+
+#flow_two_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 380px;
+    margin-top: 15px;
+}
+
+#KML_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 375px;
+    margin-top: 15px;
+}
+
+#KML_test {
+    margin-left: 150px;
+    margin-top: 18px;
+}
 /* COMING SOON */
 
 .coming_soon_hobbyup {
