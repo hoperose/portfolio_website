@@ -1784,7 +1784,38 @@ iframe {
     color: #B82867; 
 }
 
+#landing_screen {
+    margin-left: 118px;
+}
 
+#guest_tour {
+    margin-left: -150px;
+    position: relative;
+    float: right;
+}
+
+#guesttour_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+#home_flow {
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+#home_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 180px;
+    margin-top: 15px;
+}
 /* COMING SOON */
 
 .coming_soon_hobbyup {
