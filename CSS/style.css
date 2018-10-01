@@ -1784,12 +1784,18 @@ iframe {
     color: #B82867; 
 }
 
+#final_mockups {
+    margin-top: 28px;
+}
+
 #landing_screen {
-    margin-left: 118px;
+    margin-left: 138px;
+    margin-top: 28px;
+    z-index: 1;
 }
 
 #guest_tour {
-    margin-left: -150px;
+    margin-left: -228px;
     position: relative;
     float: right;
 }
@@ -1804,8 +1810,8 @@ iframe {
 }
 
 #home_flow {
-    margin-top: 40px;
-    margin-left: 25px;
+    margin-top: 30px;
+    margin-left: -110px;
 }
 
 #home_caption {
@@ -1813,8 +1819,74 @@ iframe {
     font-size: 14px;
     font-weight: 400;
     color: #333333;
-    margin-left: 180px;
+    margin-left: 100px;
     margin-top: 15px;
+}
+
+#myaccount_flow {
+    margin-left: -108px;
+    margin-top: 30px;
+}
+
+#account_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 15px;
+}
+
+#mygroups_flow {
+    position: relative;
+    float: right;
+    margin-left: -500px;
+    margin-right: 240px;
+    margin-top: -210px;
+}
+
+#group_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    position: relative;
+    float: right;
+    margin-left: -500px;
+    margin-right: 300px;
+    margin-top: -20px;
+}
+
+#messaging_flow{
+    margin-left: -108px;
+    margin-top: 30px;
+}
+
+#messaging_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 15px;
+}
+
+#searching_flow {
+    position: relative;
+    float: right;
+    margin-left: -500px;
+    margin-right: 240px;
+    margin-top: -210px;
+}
+
+#searching_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    position: relative;
+    float: right;
+    margin-left: -500px;
+    margin-right: 300px;
+    margin-top: -20px;
 }
 /* COMING SOON */
 
