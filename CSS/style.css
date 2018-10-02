@@ -1790,7 +1790,7 @@ iframe {
 
 #landing_screen {
     margin-left: 138px;
-    margin-top: 28px;
+    margin-top: 58px;
     z-index: 1;
 }
 
@@ -1807,12 +1807,19 @@ iframe {
     color: #333333;
     margin-left: 180px;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-#home_flow {
-    margin-top: 30px;
-    margin-left: -110px;
+#home_2 {
+    margin-top: 10px;
+    margin-left: -116px;
 }
+
+#home_3 {
+    margin-top: 10px;
+    margin-left: -116px;
+}
+
 
 #home_caption {
     font-family: 'Open Sans', sans-serif;
@@ -1824,8 +1831,10 @@ iframe {
 }
 
 #myaccount_flow {
-    margin-left: -108px;
-    margin-top: 30px;
+    margin-left: -116px;
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
 }
 
 #account_caption {
@@ -1841,7 +1850,7 @@ iframe {
     float: right;
     margin-left: -500px;
     margin-right: 240px;
-    margin-top: -210px;
+    margin-top: -215px;
 }
 
 #group_caption {
@@ -1857,8 +1866,10 @@ iframe {
 }
 
 #messaging_flow{
-    margin-left: -108px;
-    margin-top: 30px;
+    margin-left: -116px;
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
 }
 
 #messaging_caption {
