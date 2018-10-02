@@ -129,7 +129,15 @@
                 </div>
                 </a>
             </div>
-            <div href="#" class="card" id="taskstore">
+            
+            <div id="more_projects_button">
+                <button href="#load_more" class="nav-toggle">More Projects</button>
+            </div>
+            
+            
+            
+            <div id="load_more">
+              <div href="#" class="card" id="taskstore">
                 <a id="thumbnailtab" href="TaskStore/"><img class="card-img-top" src="../images/thumbnail_taskstore.JPG" alt="thumbnail images">
                 <div class="card-img-overlay">
                     <div class="card-body">
@@ -160,6 +168,18 @@
                 </div>
                 </a>
             </div>
+            <div href="#" class="card" id="soundslikefun">
+                <a id="thumbnailtab" href="Soundslikefun/"><img class="card-img-top" src="../images/thumbnail_soundslikefun.jpg" alt="thumbnail images">
+                <div class="card-img-overlay">
+                    <div class="card-body" id="soundslikefuncard">
+                        <h4 class="card-title">Sounds Like Fun</h4>
+                        <p class="card-text">Tangible User Interface Design</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            </div>
+            
           <!--  <div href="#" class="card" id="wechatresearch">
                 <a id="thumbnailtab" href="Research/"><img class="card-img-top" src="../images/thumbnail_wechatresearch.jpg" alt="thumbnail images">
                 <div class="card-img-overlay">
@@ -172,16 +192,7 @@
             </div>-->
           
        
-            <div href="#" class="card" id="soundslikefun">
-                <a id="thumbnailtab" href="Soundslikefun/"><img class="card-img-top" src="../images/thumbnail_soundslikefun.jpg" alt="thumbnail images">
-                <div class="card-img-overlay">
-                    <div class="card-body" id="soundslikefuncard">
-                        <h4 class="card-title">Sounds Like Fun</h4>
-                        <p class="card-text">Tangible User Interface Design</p>
-                    </div>
-                </div>
-                </a>
-            </div>
+            
         
         </div>
         
@@ -225,7 +236,23 @@
         })
     </script>
     
+    <!-- More projects toggle button-->
     
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.nav-toggle').click(function(){
+                var collapse_content_selector = $(this).attr('href');
+//                var toggle_switch = $(this);
+            
+            $(collapse_content_selector).toggle(function(){
+               $('#more_projects_button').hide();
+                }
+                
+            )
+            })
+        })
+        
+    </script>
     
 
     

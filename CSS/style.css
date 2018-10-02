@@ -559,7 +559,7 @@ mark:hover{
     font-weight: 300;
     float: right;
     display: block;
-    margin-top: -268px;
+    margin-top: -251px;
     margin-right: 75px;
     margin-left: 350px;
     padding-left: 88px;
@@ -669,6 +669,36 @@ mark:hover{
     line-height: 59px;
     
 }
+
+#more_projects_button {
+    margin-top: 58px;
+}
+
+#more_projects_button button {
+    background-color: #ffffff;
+    color: #B82867;
+    border: 2px solid #B82867;
+    margin-left: 445px;
+    border-radius: 8px;
+    padding: 18px 28px;
+    font-size: 28px;
+    font-family:'Lato', sans-serif;
+    font-weight: 700;
+/*    margin-top: 39px;*/
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#more_projects_button button:hover {
+    background-color: #B82867;
+    color: #ffffff;
+}
+
+#load_more {
+    display: none;
+}
+
+
 
 
 /* Styling of Portfolio Project Page */
