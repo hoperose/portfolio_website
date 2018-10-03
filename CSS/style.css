@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Frank+Ruhl+Libre:400,500,700,900|Karla|Lora:400,700|Open+Sans:300,400,600,700|PT+Sans:400,700|PT+Serif:400,700|Source+Sans+Pro:400,600,700|Playfair+Display:400,700|Lato:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900|Abril+Fatface|Frank+Ruhl+Libre:400,500,700,900|Karla|Lora:400,700|Open+Sans:300,400,600,700|PT+Sans:400,700|PT+Serif:400,700|Source+Sans+Pro:400,600,700|Playfair+Display:400,700|Lato:400,700,900');
 
 
 html, body {
@@ -289,39 +289,71 @@ li {
 
 
 
+
+
 .working h1 {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 80px;
-    font-weight: 500;
-    margin-left: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    margin-left: 18%;
+    margin-top: 370px;
 }
 
 
-.ux_design {
+.working h5 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 43px;
-    font-weight: 700;
-    margin-top: 300px;
+    font-size: 21px;
+    font-weight: 400;
     margin-left: 18%;
-    margin-bottom: -88px;
+}
+
+/*.ux_design {
+    margin-top: 18px;
+    margin-left: 19%;
+}
+
+
+.ux_design p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+   */
+/*    margin-bottom: -88px;*/
     
 }
 
-.ux_research {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 43px;
+
+.highlight_design {
+    font-family: 'Archivo', sans-serif;
+    font-size: 68px;
     font-weight: 700;
-    margin-left: 57.5%;
-    margin-top: -92px;
 }
+
+/*.ux_research p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+
+}*/
+
+/*.ux_research {
+    margin-left: 57.5%;
+    margin-top: -47px;
+}
+
+.highlight_research {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}*/
 
 .landing_design {
     display: none;
 }
 
-.landing_research {
+/*.landing_research {
     display: none;
-}
+}*/
 
 
 
@@ -333,16 +365,17 @@ li {
 mark {
     background-color: #f2c5d9;
     transition: line-height 0.2s ease-in-out;
-    line-height: 0.015;
+    line-height: 0.018;
     display: inline-block;
-    padding-bottom: 15px;
+
+    padding-bottom: 23px;
 
     cursor: pointer;
 }
 
 
 mark:hover{
-    line-height: 35px;
+    line-height: 38px;
     padding-bottom: 5px;
     
 }
@@ -364,7 +397,7 @@ mark:hover{
     font-size: 18px;
     color: #787878;
     text-align: center;
-    margin-top: 52%;
+    margin-top: 58%;
     bottom: 0;
     position: relative;
     font-weight: 300;
