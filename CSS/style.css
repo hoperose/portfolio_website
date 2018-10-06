@@ -10,7 +10,6 @@ html, body {
 }
 
 
-
 .name h2 {
     font-family: 'Baskerville', Baskerville Old Face;
     font-weight: 550;
@@ -22,6 +21,14 @@ html, body {
     position: fixed;
 }
 
+@media (max-width: 1400px) {
+    .name h2 {
+        position: relative;
+        margin-left: 0px;
+    }
+}
+
+
 .landlogo {
     margin-left: 50px;
     margin-top: 50px;
@@ -30,6 +37,13 @@ html, body {
 
 .landlogo:hover {
     -webkit-filter: brightness(150%);
+}
+
+@media (max-width: 1400px) {
+    .landlogo {
+        margin-top: -25px;
+        position: relative;
+    }
 }
 
 
@@ -65,7 +79,7 @@ a #logobadge {
 .navigation {
     position: fixed;
     top: 0;
-    right: 1500px;
+    right: 1688px;
     background: rgba(255,255,255,0.9);
     width: 100%;
     height: 100%;
@@ -293,7 +307,7 @@ li {
 
 .working h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 68px;
+    font-size: 4.72vw;
     font-weight: 700;
     margin-left: 18%;
     margin-top: 370px;
@@ -302,7 +316,7 @@ li {
 
 .working h5 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 21px;
+    font-size: 1.46vw;
     font-weight: 400;
     margin-left: 18%;
 }
@@ -325,7 +339,7 @@ li {
 
 .highlight_design {
     font-family: 'Archivo', sans-serif;
-    font-size: 68px;
+    font-size: 4.72vw;
     font-weight: 700;
 }
 
@@ -394,14 +408,27 @@ mark:hover{
 
 #landing {
     font-family: 'Helvetica';
-    font-size: 18px;
+    font-size: 1.25vw;
     color: #787878;
     text-align: center;
-    margin-top: 58%;
+    margin-top: 47%;
     bottom: 0;
-    position: relative;
+    position: fixed;
     font-weight: 300;
+    margin-left: 639px;
 }
+
+@media (max-width: 1400px) {
+    #landing {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 55%;
+    }
+}
+
+
+
+
 
 #about {
     font-family: 'Helvetica';
