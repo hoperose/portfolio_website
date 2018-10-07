@@ -17,12 +17,12 @@ html, body {
     text-align: center;
     padding-top: 25px;
     margin: 0px;
-    margin-left: 635px;
+    margin-left: 639px;
     margin-right: 23px;
     position: fixed;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1450px) {
     .name h2 {
         position: relative;
         margin-left: 0px;
@@ -32,7 +32,7 @@ html, body {
 
 .landlogo {
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 40px;
     position: fixed;
 }
 
@@ -40,7 +40,7 @@ html, body {
     -webkit-filter: brightness(150%);
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1450px) {
     .landlogo {
         margin-top: -25px;
         position: relative;
@@ -57,10 +57,10 @@ html, body {
     position: fixed;
     
 }
-a #logobadge {
+#logobadge {
     position: relative;
 /*    margin-left: 50px;*/
-    margin-top: -48px;
+    margin-top: -63px;
     display: block;
 }
 
@@ -72,7 +72,7 @@ a #logobadge {
 
 #logo_portfolio {
     margin-left: -102px;
-    margin-top: -79px;
+    margin-top: -95px;
     display: block;
     position: fixed;
 }
@@ -311,7 +311,7 @@ li {
     font-size: 4.72vw;
     font-weight: 700;
     margin-left: 18%;
-    margin-top: 370px;
+    margin-top: 318px;
 }
 
 
@@ -321,6 +321,39 @@ li {
     font-weight: 400;
     margin-left: 18%;
 }
+
+.entry_button{
+    background-color: #ffffff;
+    color: #B82867;
+    border: 2px solid #B82867;
+    margin-left: 18%;
+    margin-top: 28px;
+    padding: 18px 28px;
+    font-size: 1.46vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.entry_button:hover {
+    background-color: #B82867;
+    color: #ffffff;
+    
+}
+
+.entry_arrow {
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin-left: 58px;
+    margin-top: 5px;
+}
+
+/*.arrow_color:hover {
+        fill: #ffffff;
+    }*/
+
 
 /*.ux_design {
     margin-top: 18px;
@@ -344,37 +377,13 @@ li {
     font-weight: 700;
 }
 
-/*.ux_research p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
-    font-weight: 400;
 
-}*/
-
-/*.ux_research {
-    margin-left: 57.5%;
-    margin-top: -47px;
-}
-
-.highlight_research {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
-    font-weight: 400;
-}*/
 
 .landing_design {
     display: none;
 }
 
-/*.landing_research {
-    display: none;
-}*/
 
-
-
-/*.highlight_design:hover + #landing_design {
-    display: block;
-}*/
 
 
 mark {
@@ -398,15 +407,6 @@ mark:hover{
 
 
 
-
-/*.highlight::-moz-selection,
-.highlight::selection {
-    background-color: #DD7FA8;
-}*/
-
-
-
-
 #landing {
     font-family: 'Helvetica';
     font-size: 1.25vw;
@@ -419,7 +419,7 @@ mark:hover{
     margin-left: 639px;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1450px) {
     #landing {
         position: relative;
         margin-left: 0px;
@@ -462,7 +462,7 @@ mark:hover{
     .landlogo img {
         width: 30px;
         height: 30px;
-        margin-top: -22px;
+        margin-top: -12px;
         margin-left: -18px;
         position: fixed; 
     }
@@ -548,7 +548,7 @@ mark:hover{
     font-weight: 700;
     margin-left: 11%;
     margin-right: 13%;
-    margin-top: 158px;
+    margin-top: 128px;
     text-align: center;
 }
     mark {
@@ -569,13 +569,33 @@ mark:hover{
     text-align: center;
 }
 
-/*    .highlight_design {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 58px;
-    font-weight: 700;
-}*/
+    .entry_button{
+    background-color: #ffffff;
+    color: #B82867;
+    border: 2px solid #B82867;
+    margin-left: 24%;
+    margin-top: 18px;
+/*    padding: 18px 25px;*/
+    padding-top: 18px;
+    padding-bottom: 13px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+    .entry_arrow {
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin-left: 58px;
+    margin-top: 0px;
+}
+
     
-    
+ 
     
     
     
