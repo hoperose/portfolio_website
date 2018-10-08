@@ -290,9 +290,27 @@ li {
 
 .split.left {
     left: 0;
-    background: url(../images/land_image.jpg) center center no-repeat;
+    background: url(../images/land_image_3.jpg) center center no-repeat;
     background-size: cover;
     position: absolute;
+}
+
+.mobile_landing_about {
+/*    display: none;*/
+    margin-top: 200px;
+    margin-left: 300px;
+    visibility: hidden;
+}
+
+.mobile_landing_about h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-right: 280px;
+    margin-top: 5px;
 }
 
 
@@ -459,13 +477,19 @@ mark:hover{
 
 @media (max-width: 414px) {
     
+    .container {
+        overflow-y: scroll;
+    }
+    
     .landlogo img {
         width: 30px;
         height: 30px;
-        margin-top: -12px;
+/*        margin-top: 8px;*/
         margin-left: -18px;
-        position: fixed; 
+        position: fixed;
+        top: 4.2%;
     }
+    
     
     .name h2 {
     font-family: 'Baskerville', Baskerville Old Face;
@@ -473,9 +497,11 @@ mark:hover{
     font-size: 20px;
     text-align: center;
 /*    padding-top: 25px;*/
+    top: 0%;
     margin-top: 8px;
     margin-left: 158px;
     position: fixed;
+
 }
     
     .icon {
@@ -535,11 +561,55 @@ mark:hover{
     }
     
     .split.left {
-        display: none;
+/*        display: none;*/
+        width: 100%;
+        height: 38%;
+        top: 40%;
+        margin-top: 238px;
+        background: url(../images/land_image_3.jpg) center center no-repeat;
+        background-size: 414px auto, cover;
+/*        position: absolute;*/
+        position: absolute;
+        display: block;
+        z-index: -2;
     }
+    
+    .mobile_landing_about {
+    margin-top: 218px;
+    margin-left: 28px;
+    visibility: visible;
+
+}
+    
+    .mobile_landing_about img {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .mobile_landing_about h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-right: 300px;
+    margin-top: 0px;
+}
+    .split.left a {
+        color: #000000;
+    }
+    
+    .split.left a:visited {
+        color: #000000;
+    }
+    
     
     .split.right {
         width: 100%;
+        position: relative;
+        display: block;
+        margin-top: 68px;
     }
     
     .working h1 {
@@ -550,6 +620,7 @@ mark:hover{
     margin-right: 13%;
     margin-top: 128px;
     text-align: center;
+
 }
     mark {
     background-color: #f2c5d9;
@@ -593,6 +664,15 @@ mark:hover{
     margin-left: 58px;
     margin-top: 0px;
 }
+/*    .landing_design {
+    display: block;
+    width: 414px;
+    height: auto;
+    position: relative;
+    margin-top: 250px;
+
+    }*/
+
 
     
  

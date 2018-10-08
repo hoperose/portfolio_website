@@ -36,18 +36,23 @@
 <body>
     <div class="container">
         <div class="split left">
+            <a href="About/index.html" alt="link to about on mobile"><div class="mobile_landing_about">
+                <img src="images/mobile_entry_arrow.png" alt="mobile entry arrow">
+                <h3>About</h3>
+            </div></a>
         </div>
         <div class="split right">
 
             <span class="working">
                 <h1>UX <span class="highlight_design"><a href="/Portfolio/index.html"><mark>Design</mark></a></span>er</h1>
-                <img class="landing_design" src="images/landing_design.jpg" alt="landing design showcase" width="960" height="1080">
+                <!--<img class="landing_design" src="images/landing_design.jpg" alt="landing design showcase" width="960" height="1080">-->
                 <h5>I design UX that is informed by user research</h5>
                 <a href="/Portfolio/index.html"><button class="entry_button" type="button" class="btn btn-outline-primary btn-lg">View portfolio <!--<img id="arrow_entry" alt="entry arrow" src="images/arrow_entry.png" width="28" height="28">-->
                 <svg class="entry_arrow" style="width:24px;height:24px" viewBox="0 0 28 28">
                 <path class="arrow_color" fill="#B82867" d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
                 </svg>
                 </button></a>
+                <img class="landing_design" src="images/landing_design.jpg" alt="landing design showcase" width="960" height="1080">
                 <!--<div class="ux_design">
                     <p>I <span class="highlight_design"><a href="/Portfolio/index.html"><mark>Design</mark></a></span> UX that is informed by</p>
                     
@@ -118,7 +123,7 @@
     
     <script type="text/javascript">
         $(document).ready(function() {
-            var images = ['land_image.jpg', 'land_image_2.jpg', 'land_image_3.jpg'];
+            var images = [/*'land_image.jpg',*/ 'land_image_2.jpg', 'land_image_3.jpg'];
             $('.split.left').css({'background-image': 'url(../images/' + images[Math.floor(Math.random() * images.length)] + ')'});
         })
     </script>
