@@ -57,6 +57,7 @@ html, body {
     position: fixed;
     
 }
+
 #logobadge {
     position: relative;
 /*    margin-left: 50px;*/
@@ -487,7 +488,7 @@ mark:hover{
 /*        margin-top: 8px;*/
         margin-left: -18px;
         position: fixed;
-        top: 4.2%;
+        top: 4.1%;
     }
     
     
@@ -609,7 +610,7 @@ mark:hover{
         width: 100%;
         position: relative;
         display: block;
-        margin-top: 68px;
+        margin-top: 50px;
     }
     
     .working h1 {
@@ -646,6 +647,7 @@ mark:hover{
     border: 2px solid #B82867;
     margin-left: 24%;
     margin-top: 18px;
+    margin-bottom: 8px;
 /*    padding: 18px 25px;*/
     padding-top: 18px;
     padding-bottom: 13px;
@@ -664,27 +666,8 @@ mark:hover{
     margin-left: 58px;
     margin-top: 0px;
 }
-/*    .landing_design {
-    display: block;
-    width: 414px;
-    height: auto;
-    position: relative;
-    margin-top: 250px;
 
-    }*/
-
-
-    
- 
-    
-    
-    
-
-    
-    
-    
-    
-    
+   
 }
 
 
@@ -694,10 +677,7 @@ mark:hover{
 
 /* Styling of About Page */
 
-/*.about {
-    display: inline-block;
-    position: relative;
-}*/
+
 
 .about h3{
     margin-top: 180px;
@@ -751,6 +731,7 @@ mark:hover{
 }
 
 .bio {
+    margin-top: 28px;
     margin-bottom: 158px;
 }
 
@@ -831,6 +812,127 @@ mark:hover{
 }
 
 
+/* Mobile About */
+
+@media (max-width: 414px) {
+    .container {
+        overflow-y: scroll;
+    }
+
+    .about h3{
+    margin-top: 118px;
+    margin-bottom: 180px;
+    margin-left: 28px;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #333; 
+}
+    .introduction {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15.8px;
+/*    float: right;*/
+    display: block;
+    margin-top: -168px;
+    margin-right: 20px;
+/*    margin-left: 350px;*/
+    padding-left: 75px;
+    width: 368px;
+    line-height: 1.58;
+    color: #333;
+}
+    .more {
+    visibility: hidden;
+/*    font-size: 18.5px;
+    color: #B82867;*/
+}
+    .portait {
+    background: url(../images/about_image.jpg) center center no-repeat;
+    background-size: 414px auto, cover;
+    height: 525px;
+    margin-top: -28px;
+    margin-bottom: -138px;
+}
+    .story h3{
+    font-family:'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 28px;
+    color: #333;
+}
+    .details {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    display: block;
+    margin-left: 30px;
+    margin-top: -18px;
+    width: 368px;
+    color: #333;
+    line-height: 1.5;
+}
+    .resume button {
+    background-color: #ffffff;
+    color: #B82867;
+    border: 2px solid #B82867;
+    margin-left: 128px;
+    border-radius: 8px;
+    padding: 18px 28px;
+    font-size: 18px;
+    font-family:'Lato', sans-serif;
+    font-weight: 700;
+    margin-top: 28px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+    .bio {
+    margin-bottom: 108px;
+}
+    .site {
+    background-color: #f9e6ee;
+    background-size: cover;
+    height: 208px;
+}
+    .website {
+    margin-left: 18px;
+    padding-top: 60px;
+    margin-top: -50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+    .instruction p{
+    color: #333;
+    font-family: 'Raleway';
+    font-size: 12px;
+    float: right;
+    display: inline-block;
+    padding-left: 200px;
+    margin-right: 28px;
+    margin-top: -88px;
+    width: 228px;
+    line-height: 2em;
+}
+/*    .logo {
+    margin-left: 663px;
+    margin-top: 0px;
+    display: block;
+    position: fixed;
+    
+}*/
+
+   #logobadge {
+    width: 30px;
+    height: 30px;
+    margin-left: -31px;
+    margin-top: 109px;
+/*    display: block;*/
+    position: fixed;
+}
+    
+
+    
+}
 
 /* Styling of Portfolio Page */
 
