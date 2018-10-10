@@ -61,7 +61,7 @@ html, body {
 #logobadge {
     position: relative;
 /*    margin-left: 50px;*/
-    margin-top: -63px;
+    margin-top: -33px;
     display: block;
 }
 
@@ -69,6 +69,20 @@ html, body {
 #logobadge:hover {
     -webkit-filter: brightness(150%);
 }
+
+
+#logobadge_about {
+     position: relative;
+/*    margin-left: 50px;*/
+    margin-top: -63px;
+    display: block;
+}
+
+#logobadge_about:hover {
+     -webkit-filter: brightness(150%);
+}
+
+
 
 
 #logo_portfolio {
@@ -516,9 +530,21 @@ mark:hover{
     cursor: pointer;
 
 }
-    .menu {
-        display: none;
-    }
+    
+    strong {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #B82867;
+    display: inline-block;
+    float: left;
+    margin-top: -15px;
+    margin-left: -58px;
+    visibility: hidden;
+}
+
+
+
     
     .hamburger {
     display: block;
@@ -549,6 +575,40 @@ mark:hover{
    .hamburger:after {
     top: 9.8px;
 }
+    .hamburger:hover {
+/*    background: #e485af;*/
+    -webkit-filter: brightness(150%);
+}
+
+
+.hamburger:hover:before {
+/*    background: #e485af;*/
+    -webkit-filter: brightness(150%);
+}
+
+.hamburger:hover:after {
+/*    background: #e485af;*/
+    -webkit-filter: brightness(150%);
+}
+
+
+
+.icon.toggle .hamburger {
+    background: rgba(0,0,0,0);
+    box-shadow: 0 2px 5px rgba(0,0,0,0);
+}
+
+.icon.toggle .hamburger:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.icon.toggle .hamburger:after {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+    
     #landing {
     font-family: 'Helvetica';
     font-size: 15px;
@@ -666,6 +726,84 @@ mark:hover{
     margin-left: 58px;
     margin-top: 0px;
 }
+    
+    ul {
+    list-style-type: none;
+    font-family: 'Open Sans';
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 18px;
+    margin-top: 8%;
+    padding-left: 10%;
+}
+
+    li {
+    margin: 0 0 28px 0;
+}
+
+    .navigation a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+    display: block;
+}
+
+    .navigation a:hover {
+    color: #B82867;
+    transform: scale(1.1);
+    font-style: oblique;
+}
+
+    .navigation ul {
+    width: 258px;
+}
+    .contact {
+    margin-left: 50px;
+    margin-right: -83px;
+    font-family: 'Raleway';
+    font-size: 12px;
+    color: #787878;
+    line-height: 58px;
+    margin-top: -18px;
+    display: inline-block;
+}
+
+    .contact a {
+    color: #B82867;
+    display: inline-block;
+    margin-right: 17px;
+    font-weight: 100;
+    transition: color .3s ease-in-out;
+}
+
+    .contact a:hover {
+/*    color: #e485af;*/
+    -webkit-filter: brightness(150%);
+    transform: scale(1);
+}
+
+    #contact_email {
+    width: 20px;
+}
+
+    .connect {
+    float: right;
+}
+
+    #social_connection {
+    margin-left: 200px;
+}
+
+    #social_connection a{
+    width: 50px;
+}
+
+    #social_twitter {
+    margin-left: -15px;
+}
+    
+    
 
    
 }
@@ -831,11 +969,9 @@ mark:hover{
     .introduction {
     font-family: 'Raleway', sans-serif;
     font-size: 15.8px;
-/*    float: right;*/
     display: block;
     margin-top: -168px;
     margin-right: 20px;
-/*    margin-left: 350px;*/
     padding-left: 75px;
     width: 368px;
     line-height: 1.58;
@@ -913,19 +1049,13 @@ mark:hover{
     width: 228px;
     line-height: 2em;
 }
-/*    .logo {
-    margin-left: 663px;
-    margin-top: 0px;
-    display: block;
-    position: fixed;
-    
-}*/
 
-   #logobadge {
+
+   #logobadge_about {
     width: 30px;
     height: 30px;
     margin-left: -31px;
-    margin-top: 109px;
+    margin-top: 105px;
 /*    display: block;*/
     position: fixed;
 }
@@ -1005,8 +1135,6 @@ mark:hover{
 
 
 
-
-
 #soundslikefun {
     margin-left: 25px;
 }
@@ -1020,9 +1148,6 @@ mark:hover{
     transition: background .3s ease-in-out;
     
 }
-
-
-
 
 
 
@@ -1093,6 +1218,154 @@ mark:hover{
 #load_more {
     display: none;
 }
+
+
+
+/* Mobile Portfolio */
+
+@media (max-width: 414px) {
+    .container {
+        overflow-y: scroll;
+    }
+    
+    #logobadge {
+    width: 30px;
+    height: 30px;
+    margin-left: 115px;
+    margin-top: 122px;
+/*    display: block;*/
+    position: fixed;
+    z-index: 5;
+}
+    #aboutPortfolio {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 118px;
+    margin-bottom: 180px;
+    margin-left: 8px;
+    color: #333;
+    
+}
+    .introduction_portfolio {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15.8px;
+    font-weight: 300;
+    display: block;
+    margin-top: -168px;
+    margin-right: 50px;
+/*    margin-left: 350px;*/
+    padding-left: 75px;
+    width: 398px;
+    line-height: 1.58;
+    color: #333;
+}
+    .frame {
+        margin-bottom: -80px;
+    }
+    
+    .card {
+    width: 328px;
+    height: 263px;
+    margin-left: 102px;
+    display: inline-block;
+    border-radius: 0;
+    border: none;
+    position: relative;
+    z-index: 0;
+}
+
+    .card-img-overlay{
+        margin-top: -50px;
+    }
+    
+    .card-body {
+    width: 298px;
+    height: 73.5px;
+    background: #f7f7f7;
+    margin-top: 208px;
+    margin-left: -5px;
+    color: #4e4e4e;
+    transition: background .3s ease-in-out;
+    
+}
+    .card-title {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 15.8px;
+    margin-top: -8px;
+/*    font-stretch: semi-expanded;*/
+}
+
+    .card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+ 
+    
+    #taskitmobile {
+        margin-left: 25px;
+    }
+    
+    #calcentral {
+        margin-top: 18px;
+    }
+    
+    #hobbyup {
+        margin-left: 25px;
+        margin-top: 18px;
+    }
+    
+    #dragonfruit {
+        margin-left: 25px;
+        margin-top: 18px;
+    }
+    
+    #taskstore {
+        margin-left: 25px;
+        margin-top: 18px;
+    }
+    
+    #eslaid {
+        margin-left: 25px;
+        margin-top: 18px;
+    }
+    
+    #infoviz {
+        margin-left: 25px;
+        margin-top: 18px;
+    }
+    
+    #soundslikefun {
+        margin-left: 25px;
+        margin-top: 18px;
+    }
+    
+    #more_projects_button button {
+    background-color: #ffffff;
+    color: #B82867;
+    border: 2px solid #B82867;
+    margin-left: 78px;
+    border-radius: 8px;
+    padding: 18px 28px;
+    font-size: 25px;
+    font-family:'Lato', sans-serif;
+    font-weight: 700;
+/*    margin-top: 39px;*/
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+    
+    
+}
+
+   
+ 
+
+
+
+
 
 
 
