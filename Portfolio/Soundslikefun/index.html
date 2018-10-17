@@ -84,7 +84,7 @@
                 <P>The cymatics which documents the visual effects sound have on materials such as water, powder, fine sand, or granules, was popularized by a Swiss physician Hans Jenny in his book <i>Cymatics: The Study of Wave Phenomena</i>, published in 1967. Jenny found that the cymatics “is not an unregulated chaos; it is a dynamic but ordered pattern”. The tonoscope was a device created to transform sound vibration into their visual representations (i.e., patterns) on a screen. For its interaction, the input is human voice through continuously singing or speaking; the output are different patterns caused by the different forms of sound vibration.</P>
                 <div id="role_time" class="row">
                     <div class="col-xl-4">
-                        <h3>My Role</h3>
+                        <h3>My role</h3>
                         <p>Designer &amp; Crafter</p>
                     </div>
                     <div class="col-xl-4">
@@ -98,33 +98,116 @@
                 </div>
                 <div id="method_contribution" class="row">
                     <div class="col-xl-12">
-                        <h3>The Challenge</h3>
-                        <p>There exists a large number of people who are not able to interact with the tonoscope through continuously singing or speaking to view the beautiful sound patterns due to their vocal cords constraints.</p>
-                        <h3>The Solution</h3>
+                        <h3>The challenge</h3>
+                        <p>There exists a significant number of people who are not able to interact with the tonoscope through continuously singing or speaking to view the beautiful sound patterns due to their vocal cords constraints.</p>
+                        <h3>The solution</h3>
                         <p>Inspired by the tangible reality of cymatics, we attempt to incorporate a tangible user interface (TUI) design into the tonoscope, which aims to enhance the accessibility for all users to experience the cymatics through interacting with this TUI-based artifact.</p>
                     </div>
                 </div>
-                <!--<div id="method_contribution" class="row">
-                    <div class="col-xl-12">
-                        <h3>Qian's Contribution</h3>
-                        <ul>
-                            <li>Designed research process.</li>
-                            <li>Led synthesizing with affinity diagram &amp; creating paper prototypes.</li>
-                            <li>Executed the project including survey, contextual inquiry, cognitive walkthrough, discount usability study, and paper prototyping. </li>
-                            <li>Crafted the user journey map.</li>
-                        </ul>
-                    </div>
-                </div>-->
             </div>
         </div>
         
-        <!--<div class="process">
+        <div class="process">
             <h2>System Design Process</h2>
-        </div>-->
+            <h3>System architecture</h3>
+            <p>The system consists of four components as follows:</p>
+            <div id="system_design" class="row">
+                <div id="system_design_one" class="col-xl-3">
+                    <h4>Sound board</h4>
+                    <p>This component is responsible for the actual transformation of sound and visualization of the properties of resonance, frequencies and standing waves.</p>
+                </div>
+                <div id="system_design_two" class="col-xl-3">
+                    <h4>Controller</h4>
+                    <p>This portion of the system is used for tweaking the properties of the sound wave in real time and transmitting the information to the processor.</p>
+                </div>
+                <div id="system_design_three" class="col-xl-3">
+                    <h4>Processor</h4>
+                    <p>This part is responsible for generating the actual sound wave after determining the attributes to be set from the controller and conveying it to the sound board.</p>
+                </div>
+                <div id="system_design_four" class="col-xl-3">
+                    <h4>Indicators</h4>
+                    <p>These are the LEDs that act as indicators conveying information about the selections on the controller and the properties of the sound waves that are currently being transmitted by the system.</p>
+                </div>
+            </div>
+            <div id="system_arc_image">
+                <a class="image-link" href="images/system_arc.jpg"><img src="images/system_arc.jpg" alt="image for system architecture" width="600" height="374"></a>
+                <figcaption class="figure-caption">The System Architecture</figcaption>
+            </div>
+            <div class="space"></div>
+            <h3>Prototyping</h3>
+            <p>When it comes to the sound board, a customized 3D-printed big-mouth funnel masked by a latex cloth has been used as the main board to display the sound patterns after we iterated with other different options. Meanwhile, the funnel is attached to a PVC pipe in which a wireless speaker is placed to deliver the sound source to the main board.</p>
+            <p>The controller has four potentiometers that represent the knobs which allow the user to interact to control different aspects of the sound being generated. Specifically, The first knob (i.e., Knob A) represents the waveform of the generated sound. The second knob (i.e., Knob B) represents the volume of the sound wave being generated. The third knob (i.e., Knob C) represents the frequency which ranges from 0 to 1024 Hz. The fourth knob (i.e., Knob D) represents the channel. Each channel represents a single wave with a particular combination of the attributes of the previous knobs. Also, The controller has an Arduino UNO board which is connected to all the the potentiometers and is responsible for interpreting the values of the knobs and also conveying the information to the processor as well as the indicators (i.e., LED lights).</p>
+            <p>The processor utilizes the information provided to it by the controller and generates precisely the sound as per the requested attributes. The Processor can run on any computer that supports node runtime. The code for audio generation is written in node along with the use an open source audio generation tool called ChuCk. The tool is capable of generating audio when information about wave form and their attributes is provided.</p>
+            <p>To assist in visualizing the invisible part of the cymatics as well as enhance the accessibility design of this artifact, we used LED lights as indicators for the channel selection and the frequency change. Specifically, Those three LED lights installed on the controller, are the channel selection indicators. When a channel is switched, to indicate which channel has been selected amongst the three, the respective LED lights up. The blinking of LED lights of the same color have been used to represent the frequencies of the waves that are running on a particular channel. The frequencies of the actual waves are scaled down so as to make a visible difference.</p>
+            <div class="prototyping_tools">
+                <div class="row">
+                <div id="tool_funnel" class="col-xl-4">
+                    <img src="images/Funnel.JPG" width="188" height="188">
+                    <figcaption class="figure-caption">3D-printed funnel</figcaption>
+                </div>
+                <div id="tool_latex" class="col-xl-4">
+                    <img src="images/Latex_cloth.jpg" width="188" height="188">
+                    <figcaption class="figure-caption">Latex cloth</figcaption>
+                </div>
+                <div id="tool_pipe" class="col-xl-4">
+                    <img src="images/pvc%20pipe.jpg" width="188" height="188">
+                    <figcaption class="figure-caption">PVC pipe</figcaption>
+                </div>
+            </div>
+            <div class="row">
+                <div id="tool_speaker" class="col-xl-4">
+                    <img src="images/speaker.jpg" width="188" height="188">
+                    <figcaption class="figure-caption">Wireless speaker</figcaption>
+                </div>
+                <div id="tool_tape" class="col-xl-4">
+                    <img src="images/tape.jpg" width="138" height="152">
+                    <figcaption class="figure-caption">Tape</figcaption>
+                </div>
+                <div id="tool_arduino" class="col-xl-4">
+                    <img src="images/arduino.jpg" width="188" height="188">
+                    <figcaption class="figure-caption">Arduino UNO</figcaption>
+                </div>
+            </div>
+            <div class="row">
+                <div id="tool_potentionmeter" class="col-xl-4">
+                    <img src="images/potentionmeter.jpg" width="188" height="188">
+                    <figcaption class="figure-caption">Potentionmeter</figcaption>
+                </div>
+                <div id="tool_LED" class="col-xl-4">
+                    <img src="images/LEDlights.gif" width="158" height="158">
+                    <figcaption class="figure-caption">LED lights</figcaption>
+                </div>
+                <div id="tool_board" class="col-xl-4">
+                    <img src="images/breadboardandwires.jpg" width="188" height="188">
+                    <figcaption class="figure-caption">Breadboard &amp; wires</figcaption>
+                </div>
+            </div>
+            </div>
+            <div class="space"></div>
+            <h3>Output</h3>
+            <p>After assembling the sound board, controller, processor and indicators and adding a thin scattering of salt on the main board, the artifact generates the following visual patterns according to sounds having different forms of vibration.</p>
+            <img id="animated" src="images/animated.GIF">
+            <div class="row">
+                <div id="low_tone" class="col-xl-6">
+                    <a class="image-link" href="images/lower_tone_one.JPG"><img src="images/lower_tone_one.JPG" width="188" height="141"></a>
+                    <a class="image-link" href="images/lower_tone_two.JPG"><img src="images/lower_tone_two.JPG" width="188" height="141"></a> 
+                    <figcaption class="figure-caption">The patterns generated by sound having lower tone and slower vibration</figcaption>
+                </div>
+                <div id="high_tone" class="col-xl-6">
+                    <a class="image-link" href="images/higher_tone_one.JPG"><img src="images/higher_tone_one.JPG" width="188" height="141"></a>
+                    <a class="image-link" href="images/higher_tone_two.JPG"><img src="images/higher_tone_two.JPG" width="188" height="141"></a>
+                    <figcaption class="figure-caption">The patterns generated by sound having higher tone and faster vibration</figcaption>
+                </div>
+            </div>
+            <div class="space"></div>
+            <!--<h2>User Feedback</h2>
+            <p></p>-->
+
+        </div>
     </div>
     
     <!-- Coming Soon -->
-    <div class="coming_soon_soundslikefun">
+   <!-- <div class="coming_soon_soundslikefun">
             <h1>COMING SOON</h1>
         <div id="timer">
             <div id="days"></div>
@@ -132,7 +215,7 @@
             <div id="minutes"></div>
             <div id="seconds"></div>
         </div>
-    </div>
+    </div>-->
     
     <script src="../../JS/main.js"></script>
     <!-- jQuery lib -->
@@ -154,7 +237,24 @@
         })
     </script>
     
-        <script type="text/javascript">
+        <!-- Magnific Popuo core JS -->
+    <script src="../../JS/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.image-link').magnificPopup({
+                type:'image',
+                closeBtnInside: false,
+                closeOnContentClick: true,
+                
+                image: {
+                    verticalFit: true,
+                    cursor: 'mfp-zoom-out-cur'
+                }
+                                           });
+        })
+    </script>
+    
+       <!-- <script type="text/javascript">
         $(document).ready(function makeTimer() {
             var endTime = new Date("16 October 2018 23:00:00 GMT-08:00");
             endTime = (Date.parse(endTime) / 1000);
@@ -178,7 +278,7 @@
 	   });
         
     </script>
-    
+    -->
     
 </body>
 <footer>

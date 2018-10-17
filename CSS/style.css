@@ -3182,7 +3182,7 @@ iframe {
 /* Sounds Like Fun */
 
 .background_image_soundslikefun {
-    background: url(../Portfolio/Soundslikefun/soundslikefun_background.jpg) center center no-repeat;
+    background: url(../Portfolio/Soundslikefun/images/soundslikefun_background.jpg) center center no-repeat;
     background-size: cover;
     width: 100%;
     height: 500px; 
@@ -3222,6 +3222,220 @@ iframe {
     margin-top: 50px;
 }
 
+
+#system_design h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#system_design p {
+    width: 208px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+#system_design_one h4 {
+    margin-left: 145px;
+}
+
+
+#system_design_two {
+    margin-left: -50px;
+}
+
+#system_design_two h4 {
+    margin-left: 168px;
+}
+
+#system_design_three {
+    margin-left: -50px;
+}
+
+#system_design_three h4 {
+    margin-left: 168px;
+}
+
+#system_design_four {
+    margin-left: -50px;
+}
+
+#system_design_four h4 {
+    margin-left: 168px;
+}
+
+#system_arc_image img {
+    margin-left: 258px;
+}
+
+#system_arc_image figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 468px;
+    margin-top: 28px;
+}
+
+#tool_funnel {
+    margin-left: 118px;
+}
+
+#tool_funnel figcaption {
+    margin-left: 58px;
+    margin-top: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+#tool_latex {
+    margin-left: -58px;
+}
+
+#tool_latex figcaption {
+    margin-left: 68px;
+    margin-top: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+#tool_pipe {
+    margin-left: -88px;
+}
+
+#tool_pipe figcaption {
+    margin-left: 88px;
+    margin-top: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+#tool_speaker {
+    margin-left: 118px;
+}
+
+#tool_speaker figcaption {
+    margin-left: 58px;
+    margin-top: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+#tool_tape {
+    margin-left: -48px;
+    margin-top: 28px;
+}
+
+#tool_tape figcaption{
+    margin-left: 68px;
+    margin-top: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+#tool_arduino {
+    margin-left: -88px;
+}
+
+#tool_arduino figcaption{
+    margin-left: 68px;
+    margin-top: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+#tool_potentionmeter {
+     margin-left: 118px;
+}
+
+#tool_potentionmeter figcaption {
+    margin-left: 58px;
+    margin-top: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+#tool_LED {
+    margin-left: -48px;
+    margin-top: 28px;
+}
+
+#tool_LED figcaption {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+#tool_board {
+    margin-left: -88px;
+}
+
+#tool_board figcaption {
+    margin-left: 38px;
+    margin-top: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+#animated {
+    margin-left: 380px;
+    margin-top: 28px;
+}
+
+.prototyping_tools {
+    margin-top: 28px;
+}
+
+#low_tone {
+    margin-left: 128px;
+    margin-top: 18px;
+}
+
+#high_tone {
+    margin-left: -150px;
+    margin-top: 18px;
+}
+
+#high_tone figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 350px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+#low_tone figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 350px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+/*
 .coming_soon_soundslikefun {
     background: #3d3dff;
     background-size: cover;
@@ -3259,3 +3473,4 @@ iframe {
     color: #ffffff;
     font-weight: 400;
 }
+*/
