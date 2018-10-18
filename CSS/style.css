@@ -3435,6 +3435,17 @@ iframe {
     text-align: center;
 }
 
+
+.user_feed ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 850px;
+    margin-left: 50px;
+    list-style-type: disc;
+    margin-top: 0px;
+}
 /*
 .coming_soon_soundslikefun {
     background: #3d3dff;
