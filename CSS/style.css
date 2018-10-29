@@ -887,7 +887,7 @@ mark:hover{
     color: #B82867;
     border: 2px solid #B82867;
     margin-left: 628px;
-    border-radius: 8px;
+    border-radius: 0px;
     padding: 18px 28px;
     font-size: 28px;
     font-family:'Lato', sans-serif;
@@ -1094,7 +1094,7 @@ mark:hover{
 }
 
 #taskstore {
-    margin-top: 25px;
+    margin-left: 25px;
 }
 
 #hobbyup {
@@ -1106,11 +1106,11 @@ mark:hover{
 }
 
 #eslaid {
-    margin-left: 25px;
+    margin-top: 25px;
 }
 
 #infoviz {
-    margin-top: 25px;
+    margin-left: 25px;
 }
 
 
@@ -1119,9 +1119,12 @@ mark:hover{
 }
 
 
-
 #soundslikefun {
-    margin-left: 25px;
+    margin-top: 25px;
+}
+
+#fovi_health {
+    margin-top: 25px;
 }
 
 .card-body {
@@ -3446,42 +3449,47 @@ iframe {
     list-style-type: disc;
     margin-top: 0px;
 }
-/*
-.coming_soon_soundslikefun {
-    background: #3d3dff;
+
+/* Fovi Health */
+
+.background_image_Fovi{
+    background: url(../Portfolio/Fovi_health/images/fovi_background.jpg) center center no-repeat;
     background-size: cover;
-    width: 1550px;
-    height: 680px;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
-    left: 0;
-    margin-top: 18px;
-    opacity: 0.8;
+    width: 100%;
+    height: 500px; 
 }
 
-.coming_soon_soundslikefun h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 58px;
-    font-weight: 700;
-    color: #ffffff;
-    padding-top: 58px;
-    margin-left: 518px;
-}
-
-.coming_soon_soundslikefun div {
-  display: inline-block;
-  line-height: 1;
-  padding: 20px;
-  font-size: 40px;
-  margin-left: 128px;
-  margin-top: 28px;
-}
-
-.coming_soon_soundslikefun span {
+.project_card_fovi {
+    background: #9a29b1;
+    width: 880px;
+    height: 358px;
     display: block;
-    font-size: 28px;
-    color: #ffffff;
-    font-weight: 400;
+    position: relative;
+    margin-left: 115px;
+    margin-top: -20px;
 }
-*/
+
+.project_card_fovi h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.project_card_fovi p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 780px;
+    padding-left: 140px;
+    color: #ffffff;
+    padding-top: 30px;
+} 
+
+.project_card_fovi button {
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
