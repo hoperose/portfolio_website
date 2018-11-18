@@ -73,10 +73,100 @@
             </div>
           </div>
           <div class="project_card_DMV">
-            <h1>CA DMV Office Visit Appointment System</h1>
-            <p>A mobile application design that provides new moms with approachable and professional experience to track postpartum symptoms.</p>
+            <h1>DMV Office Visit Appointment System</h1>
+            <p>A redesign of the existing California DMV office visit appointment system, which aims to bring a simple, straightforward, and transparent experience to CA residents who need to deal with vehicles related issues by physically visiting DMV offices.</p>
             <a href="#" target="_blank"><button type="button" class="btn btn-outline-light btn-lg">Deliverable</button></a>
           </div>
+          <div class="project_background_soundslikefun">
+               <div class="background">
+                <h2>Background</h2>
+                <p>While the California Department of Motor Vehicles (DMV) has taken advantage of an online appointment system to replace the traditionally problematic walk-in office visit, their existing system still has many troubles which somehow hurt the user experience. In a graduate-level Product Design course, I got an independent design opportunity to address <span>the challenge: To improve the experience for CA residents scheduling an online appointment to visit DMV offices through redesigning the existing interaction flows of CA DMV online appointment website</span>.
+                </p>
+                
+                <div id="role_time" class="row">
+                    <div class="col-xl-6">
+                        <h3>My role</h3>
+                        <p>Product Designer &amp; UX Researcher</p>
+                    </div>
+                    <div class="col-xl-6">
+                        <h3>Duration</h3>
+                        <p>4 weeks</p>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+          
+          <div class="process">
+              <h2>Design Process</h2>
+              <h3>User Research</h3>
+              <p>Before directly jumping into sketching a new user flow of the online appointment website, I conducted the contextual inquiry with two users who recently needed to visit the CA DMV offices. These two users were asked to use the existing CA DMV office visit appointment website from the beginning section to the end.</p>
+              <div id="contextual_inquiry" class="row">
+                  <div id="ci_1" class="col-xl-6">
+                      <img src="images/contextualInquiry_1.JPG" alt="contextual inquiry documentation" width="300" height="225">
+                  </div>
+                  <div id="ci_2" class="col-xl-6">
+                      <img src="images/contextualInquiry_2.JPG" alt="contextual inquiry documentation" width="300" height="225">
+                  </div>
+                  <figcaption class="figure-caption">Participants were using CA DMV appointment system to schedule their office visit appointment</figcaption> 
+              </div>
+              <div class="space"></div>
+              <div id="ci_insights">
+                  <p>Three main insights uncovered from the contextual inquiry:</p>
+                  <ul>
+                      <li>The user <span>fears the time-consuming nature</span> of all DMV related issues, even with visiting the DMV website.</li>
+                      <li>The user <span>has an urgent emotion</span> when they have to make DMV office visit appointment.</li>
+                      <li>The user wants to have more <span>transparency with choosing available offices and the visiting dates</span>.</li>
+                  </ul>
+              </div>
+              <div class="space"></div>
+              <div id="storyboard">
+                  <p>On the basis of insights from the contextual inquiry, a storyboard was created to inform the redesign of interaction flowsas below:</p>
+                  <a class="image-link" href="images/storyboard.jpg"><img src="images/storyboard.jpg" alt="storyboard documentation" width="880" height="406"></a>
+                  <figcaption class="figure-caption">Storyboard: User pains of the existing appointment system &amp; design opportunities</figcaption> 
+              </div>
+              <div class="space"></div>
+              <h3>Wireframes &amp; Iterations</h3>
+          </div>
         </div>
+    
+    
+        <script src="../../JS/main.js"></script>
+    <!-- jQuery lib -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.icon').click(function(){
+                $('.navigation').toggleClass('active');
+                $('.icon').toggleClass('toggle');
+            })
+        })
+    </script>
+    
+    
+    <!-- Magnific Popuo core JS -->
+    <script src="../../JS/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.image-link').magnificPopup({
+                type:'image',
+                closeBtnInside: false,
+                closeOnContentClick: true,
+                
+                image: {
+                    verticalFit: true,
+                    cursor: 'mfp-zoom-out-cur'
+                }
+                                           });
+        })
+    </script>
 </body>
 </html>
