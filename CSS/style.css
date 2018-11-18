@@ -3497,3 +3497,46 @@ iframe {
     margin-top: 50px;
 }
 
+/* DMV Office Appointment */
+
+
+.background_image_DMV {
+    background: url(../Portfolio/DMV/images/DMV_background.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px; 
+}
+
+.project_card_DMV {
+    background: #9a29b1;
+    width: 880px;
+    height: 358px;
+    display: block;
+    position: relative;
+    margin-left: 115px;
+    margin-top: -20px;
+}
+
+.project_card_DMV h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.project_card_DMV p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 780px;
+    padding-left: 140px;
+    color: #ffffff;
+    padding-top: 30px;
+} 
+
+.project_card_DMV button {
+    margin-left: 380px;
+    margin-top: 50px;
+}
