@@ -3592,3 +3592,7 @@ iframe {
     margin-top: 18px;
     margin-left: 280px;
 }
+
+#flowchart img {
+    margin-left: 250px;
+}
