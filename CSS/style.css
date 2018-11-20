@@ -3541,6 +3541,29 @@ iframe {
     margin-top: 40px;
 }
 
+#tool {
+    margin-top: 25px;
+    margin-left: 103px;
+    
+}
+
+#tool h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #333333;
+}
+
+#tool p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 0px;
+    color: #333333;
+}
+
+
+
 #contextual_inquiry {
     margin-top: 20px;
 }
@@ -3595,4 +3618,42 @@ iframe {
 
 #flowchart img {
     margin-left: 250px;
+}
+
+#flowchart figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 700px;
+    margin-top: 18px;
+    margin-left: 315px;
+}
+
+#wireframe img {
+    margin-left: 118px;
+}
+
+#wireframe figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 700px;
+    margin-top: 18px;
+    margin-left: 450px;
+}
+
+#iteration img {
+    margin-left: 300px;
+}
+
+#iteration figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 700px;
+    margin-top: 18px;
+    margin-left: 415px;
 }
