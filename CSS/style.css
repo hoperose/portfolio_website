@@ -3562,6 +3562,10 @@ iframe {
     color: #333333;
 }
 
+.project_background_DMV a {
+    color: #0155A6;
+}
+
 
 
 #contextual_inquiry {
@@ -3656,4 +3660,26 @@ iframe {
     width: 700px;
     margin-top: 18px;
     margin-left: 415px;
+}
+
+#personal_info {
+    margin-left: 330px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
+#office_selection1 {
+    margin-left: 118px;
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
+#office_selection2 {
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
 }
