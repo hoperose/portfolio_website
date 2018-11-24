@@ -3671,15 +3671,133 @@ iframe {
 
 #office_selection1 {
     margin-left: 118px;
-    margin-top: 50px;
+    margin-top: 25px;
     -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
     -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
     box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
 }
 
 #office_selection2 {
-    margin-top: 50px;
+    margin-top: 25px;
     -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
     -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
     box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
+#personal_info_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 370px;
+}
+
+#officeselect1_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 210px;
+}
+
+#officeselect2_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 135px;
+}
+
+#appointment_review {
+    margin-left: 330px;
+    margin-top: 25px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
+#appointmentReview_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 470px;
+}
+
+#appointment_cancelled {
+    margin-left: 118px;
+    margin-top: 25px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
+#appointmentCancelled_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 230px;
+}
+
+#appointment_confirmed {
+    margin-top: 25px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
+#appointmentConfirmed_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#text_reminder {
+    margin-left: 118px;
+    margin-top: 25px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
+#appointmentReminder_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+#add_to_calendar {
+    margin-top: 25px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
+}
+
+#appointmentCalendar_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 100px;
 }
