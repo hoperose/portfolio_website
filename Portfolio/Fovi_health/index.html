@@ -52,7 +52,7 @@
             <div class="back">
                 <a href="../index.html" class="hvr-icon-back"><i class="fas fa-arrow-left fa-2x hvr-icon"></i></a>
             </div>
-            <div class="navigation">
+            <div id="portfolio_nav" class="navigation">
                 <ul id="portfolio">
                 <li><a href="../index.html">Portfolio</a></li>
                 <li><a href="#">Resume</a></li>
@@ -121,5 +121,70 @@
             </div>
         </div>
     </div>
+    <!-- Coming Soon -->
+    <div class="coming_soon_fovi">
+            <!--<div class="topleft">
+                <img src="../../images/logo_update.png" alt="logo for coming_soon page" height="38" width="38">
+            </div>-->
+            <h1>COMING SOON</h1>
+        <div id="timer">
+            <div id="days"></div>
+            <div id="hours"></div>
+            <div id="minutes"></div>
+            <div id="seconds"></div>
+        </div>
+    </div>
+    
+    <script src="../../JS/main.js"></script>
+    <!-- jQuery lib -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.icon').click(function(){
+                $('.navigation').toggleClass('active');
+                $('.icon').toggleClass('toggle');
+            })
+        })
+    </script>
+    
+        <script type="text/javascript">
+        $(document).ready(function makeTimer() {
+            var endTime = new Date("2 December  2018 23:00:00 GMT-08:00");
+            endTime = (Date.parse(endTime) / 1000);
+            var now = new Date();
+            now = (Date.parse(now)/1000);
+            var timeLeft = endTime - now;
+            var days = Math.floor(timeLeft / 86400);
+            var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+            var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60);
+            var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+            if (hours < "10") { hours = "0" + hours; }
+            if (minutes < "10") { minutes = "0" + minutes; }
+            if (seconds < "10") { seconds = "0" + seconds; }
+            
+            $("#days").html(days + "<span>Days</span>");
+            $("#hours").html(hours + "<span>Hours</span>");
+            $("#minutes").html(minutes + "<span>Minutes</span>");
+            $("#seconds").html(seconds + "<span>Seconds</span>");
+            
+            setInterval(function() {makeTimer();}, 1000);
+	   });
+        
+    </script>
+    
+    
 </body>
+<footer>
+    <div class="copyright" id="cr_portfolio">
+        <p>2018 &copy; Qian Yu</p>
+    </div>
+</footer>
 </html>

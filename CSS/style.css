@@ -1098,20 +1098,20 @@ mark:hover{
 }
 
 #hobbyup {
-    margin-top: 25px;
+    margin-left: 25px;
 }
 
 #calcentral {
     margin-left: 25px;
 }
 
-#eslaid {
-    margin-top: 25px;
-}
-
-#infoviz {
+/*#eslaid {
     margin-left: 25px;
-}
+}*/
+
+/*#infoviz {
+    margin-top: 25px;
+}*/
 
 
 #dragonfruit {
@@ -1128,7 +1128,7 @@ mark:hover{
 }
 
 #DMV {
-    margin-left: 25px;
+    margin-top: 25px;
 }
 
 .card-body {
@@ -2164,7 +2164,7 @@ ul.tabs li.current {
     font-size: 16px;
     font-weight: 400;
     color: #333333; 
-    width: 850px;
+    width: 935px;
     margin-top: 0px;
     list-style-type: disc;
     margin-left: 28px;
@@ -2763,7 +2763,7 @@ iframe {
 }
 /* COMING SOON */
 
-.coming_soon_hobbyup {
+/*.coming_soon_hobbyup {
     background: #00d9c8;
     background-size: cover;
     width: 1550px;
@@ -2799,7 +2799,7 @@ iframe {
     font-size: 28px;
     color: #ffffff;
     font-weight: 400;
-}
+}*/
 
 #days {
     font-family: 'Open Sans', sans-serif;
@@ -3457,7 +3457,7 @@ iframe {
 /* Fovi Health */
 
 .background_image_Fovi{
-    background: url(../Portfolio/Fovi_health/images/new_fovibackground.jpg) center center no-repeat;
+    background: url(../Portfolio/Fovi_health/images/new_background.jpg) center center no-repeat;
     background-size: cover;
     width: 100%;
     height: 500px; 
@@ -3496,6 +3496,47 @@ iframe {
     margin-left: 380px;
     margin-top: 50px;
 }
+
+
+.coming_soon_fovi {
+    background: #9a29b1;
+    background-size: cover;
+    width: 1550px;
+    height: 680px;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    left: 0;
+    margin-top: 18px;
+    opacity: 0.8;
+}
+
+.coming_soon_fovi h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 58px;
+    margin-left: 518px;
+}
+
+.coming_soon_fovi div {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+  margin-left: 128px;
+  margin-top: 28px;
+}
+
+.coming_soon_fovi span {
+    display: block;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+
 
 /* DMV Office Appointment */
 
@@ -3662,6 +3703,17 @@ iframe {
     margin-left: 415px;
 }
 
+#visualelements_DMV {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 935px;
+    margin-left: 30px;
+    list-style-type: disc;
+    margin-top: 0px;
+}
+
 #personal_info {
     margin-left: 330px;
     -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
@@ -3800,4 +3852,14 @@ iframe {
     width: 700px;
     margin-top: 10px;
     margin-left: 100px;
+}
+
+#nextstep_DMV {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 900px;
+    margin-left: 118px;
+    color: #333333;
+    margin-top: 25px;
 }

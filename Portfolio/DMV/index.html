@@ -52,7 +52,7 @@
             <div class="back">
                 <a href="../index.html" class="hvr-icon-back"><i class="fas fa-arrow-left fa-2x hvr-icon"></i></a>
             </div>
-            <div class="navigation">
+            <div id="portfolio_nav" class="navigation">
                 <ul id="portfolio">
                 <li><a href="../index.html">Portfolio</a></li>
                 <li><a href="#">Resume</a></li>
@@ -127,13 +127,13 @@
               </div>
               <div class="space"></div>
               <div id="storyboard">
-                  <p>On the basis of insights from the contextual inquiry, a storyboard was created to inform the redesign of interaction flowsas below:</p>
+                  <p>On the basis of insights from the contextual inquiry, a storyboard was created to inform the redesign of interaction flows as below:</p>
                   <a class="image-link" href="images/storyboard.jpg"><img src="images/storyboard.jpg" alt="storyboard documentation" width="880" height="406"></a>
                   <figcaption class="figure-caption">Storyboard: User pains of the existing appointment system &amp; design opportunities</figcaption> 
               </div>
               <div class="space"></div>
               <h3>Flowchart, Wireframes &amp; Iterations</h3>
-              <p>Being informed by user research, <span>a UX flowchart</span> was created to visualize steps a user will experience to complete their appointment making with the redesigned CA DMV office visit appointment website. Specifically, to complete an office visit appointment, the user will go through <span>four sections</span>(i.e., <i>Personal Information</i>, <i>DMV Office Selection</i>, <i>Items, Reasons &amp; Accommodation Selection</i>, and <i>Appointment Review</i> ). Meanwhile, the <span>Manage Appointment</span> section allows the user to quickly managing their appointments with their schedules.<br><br>
+              <p>Being informed by user research, <span>a UX flowchart</span> was created to visualize steps a user will experience to complete their appointment making with the redesigned CA DMV office visit appointment website. Specifically, to complete an office visit appointment, the user will go through <span>four sections</span>(i.e., <i>Personal Information</i>, <i>DMV Office Selection</i>, <i>Items, Reasons &amp; Accommodation Selection</i>, and <i>Appointment Review</i> ). Meanwhile, the <span>Manage Appointment</span> section helps the user know they have succeeded in booking an appointment as well as allows the user to quickly managing their appointments with their schedules via either text message or email.<br><br>
               Moreover, <span>a progress bar</span> is designed to clearly communicate the certain step of the whole appointment booking process, which mitigates the user’s time-consuming concern about interacting with the system. <span>A timeout alert</span> is designed to remind the user to save their current information or continue to complete their appointment booking.
               </p>
               <div id="flowchart">
@@ -154,6 +154,12 @@
               </div>
               <div class="space"></div>
               <h3>Final Mockups &amp; Prototyping</h3>
+              <p>On the basis of the iterated version of wireframes, a set of final mockups have been created by incorporating the following major visual design elements:</p>
+              <ul id="visualelements_DMV">
+                  <li>Instead of using a basic linear bar that is not able to accurately indicate the progress, <span>a step-by-step progress bar</span> that accurately communicates the completed steps and the ongoing steps is designed to effectively inform the user the current status as well as how close they are to complete the appointment booking.</li>
+                  <li>Comparing to the main body text, <span>the note/instruction text has been designed with a light typeface and a lighter text color</span>, which aims to enhance the contrast between the two. Meanwhile, the enough contrast brought by the use of light typeface helps the user quickly distinguish those different information.</li>
+                  <li>Also, <span>the light typeface has been used in designing the dates of the calendar attached with DMV office selection</span>. Specifically, except for the use of different color, unavailable dates are designed with a lighter typeface, which helps the user quickly distinguish availability and unavailability.</li>
+              </ul>
               <p>The redesigned final mockups adopted a similar color scheme as the existing system. The whole prototyping with final mockups can be assessed by visiting the following InVision URL: <a href="https://invis.io/A9P9JMRF8Z4" target="_blank">https://invis.io/A9P9JMRF8Z4</a></p>
               <div class="space"></div>
               <div class="row">
@@ -198,7 +204,20 @@
                       <figcaption id="appointmentCalendar_caption" class="figure-caption">Add to personal calendar via Email</figcaption>
                   </div>
               </div>
-              
+               
+          </div>
+          <div class="space"></div>
+          <div class="reflection">
+          <h2>Reflection</h2>
+          <h3>What I Learned</h3>
+              <ul>
+                    <li>For user research, a combination of contextual inquiry and storyboarding can effectively uncover the user’s motivations and pain points of using different functions.</li>
+                    <li>For interaction design, the design critiques from peer designers inform the iteration which effectively improves the whole interaction flow.</li>
+                    <li>For visual design, visual elements should be designed in a way that accurately indicates the current status the user is experiencing. Also, the use of light typeface can reduce the visual complexity by enhancing the contrast between different categories of information.</li>
+                </ul>
+          <h3>The Next Step</h3>
+          <p id="nextstep_DMV">To validate this redesigned California DMV office visit appointment website, usability testing needs to be conducted before implementing the redesigned website.</p>
+          
           </div>
         </div>
     
@@ -241,4 +260,9 @@
         })
     </script>
 </body>
+<footer>
+    <div class="copyright" id="cr_portfolio">
+        <p>2018 &copy; Qian Yu</p>
+    </div>
+</footer>
 </html>
