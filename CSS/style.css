@@ -1408,7 +1408,7 @@ mark:hover{
 .project_card_calcentral p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     width: 780px;
     padding-left: 115px;
     color: #ffffff;
@@ -1851,6 +1851,20 @@ mark:hover{
     font-weight: 400;
     color: #333333;
     width: 400px;
+}
+
+
+#competitor_analysis {
+    margin-left: 118px;
+    margin-top: 15px;   
+}
+
+#competitorAnalysis_caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
 }
 
 #kanban img {
@@ -2345,7 +2359,7 @@ ul.tabs li.current {
 .project_card_hobbyup p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     width: 780px;
     padding-left: 95px;
     color: #ffffff;
@@ -3187,7 +3201,7 @@ iframe {
 .project_card_soundslikefun p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     width: 780px;
     padding-left: 140px;
     color: #ffffff;
@@ -3540,7 +3554,7 @@ iframe {
 .project_card_DMV p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     width: 800px;
     padding-left: 100px;
     color: #ffffff;
