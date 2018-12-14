@@ -12,7 +12,7 @@ html, body {
 
 .name h2 {
     font-family: 'Baskerville', Baskerville Old Face;
-    font-weight: 550;
+    font-weight: 600;
     font-size: 2.22vw;
     text-align: center;
     padding-top: 25px;
@@ -1040,7 +1040,7 @@ mark:hover{
     width: 30px;
     height: 30px;
     margin-left: -31px;
-    margin-top: 100px;
+    margin-top: 108px;
 /*    display: block;*/
     position: fixed;
 }
@@ -1225,7 +1225,7 @@ mark:hover{
     width: 30px;
     height: 30px;
     margin-left: 115px;
-    margin-top: 118px;
+    margin-top: 128px;
 /*    display: block;*/
     position: fixed;
     z-index: 999;
@@ -1236,7 +1236,7 @@ mark:hover{
     font-weight: 700;
     margin-top: 118px;
     margin-bottom: 180px;
-    margin-left: 8px;
+    margin-left: 12px;
     color: #333;
     
 }
@@ -1246,10 +1246,10 @@ mark:hover{
     font-weight: 300;
     display: block;
     margin-top: -168px;
-    margin-right: 50px;
+    margin-right: 45px;
 /*    margin-left: 350px;*/
     padding-left: 75px;
-    width: 398px;
+    width: 400px;
     line-height: 1.58;
     color: #333;
 }
@@ -1306,6 +1306,11 @@ mark:hover{
         margin-top: 18px;
     }
     
+    #DMV {
+        margin-left: 25px;
+        margin-top: 18px;
+    }
+    
     #hobbyup {
         margin-left: 25px;
         margin-top: 18px;
@@ -1316,40 +1321,45 @@ mark:hover{
         margin-top: 18px;
     }
     
+    #fovi_health {
+        margin-left: 25px;
+        margin-top: 18px;
+    }
+    
     #taskstore {
         margin-left: 25px;
         margin-top: 18px;
     }
     
-    #eslaid {
+    /*#eslaid {
         margin-left: 25px;
         margin-top: 18px;
     }
-    
-    #infoviz {
+    */
+    /*#infoviz {
         margin-left: 25px;
         margin-top: 18px;
-    }
+    }*/
     
     #soundslikefun {
         margin-left: 25px;
         margin-top: 18px;
     }
     
-    #more_projects_button button {
-    background-color: #ffffff;
-    color: #B82867;
-    border: 2px solid #B82867;
-    margin-left: 78px;
-    border-radius: 8px;
-    padding: 18px 28px;
-    font-size: 25px;
-    font-family:'Lato', sans-serif;
-    font-weight: 700;
-/*    margin-top: 39px;*/
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    
+/*
+    #cr_portfolio {
+    font-family: 'Helvetica';
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    margin-top: 158px;
+    font-weight: 300;
 }
+*/
+    
     
     
 }
