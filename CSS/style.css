@@ -1877,46 +1877,22 @@ mark:hover{
     text-align: center;
 }
 
-#kanban img {
-    margin-left: 118px;
-    margin-top: 28px;
-}
-#kanban p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #333333;
-    width: 260px;
-    margin-left: 118px;
+#scenario_one {
+    margin-left: 250px;
+    margin-top: 15px;
 }
 
-#piechart img {
-    margin-left: 100px;
-    margin-top: 28px;
+#scenario_two {
+    margin-left: 220px;
+    margin-top: 20px;
 }
 
-#piechart p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #333333;
-    width: 260px;
-    margin-left: 40px;
+#scenario_three {
+    margin-left: 220px;
+    margin-top: 0px;
 }
 
-#activityhistory {
-    margin-left: -25px;
-    margin-top: 28px;
-}
 
-#activityhistory p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #333333;
-    width: 260px;
-    margin-left: -10px;
-}
 
 #bottom_navi {
     -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
@@ -1962,6 +1938,7 @@ mark:hover{
 
 #feedbacks_v1 {
     margin-top: 28px;
+    margin-bottom: 50px;
 }
 
 #feedbacks_v1 h4 {
@@ -1980,8 +1957,23 @@ mark:hover{
     margin-left: 75px;
 }
 
+#likes_green {
+    background-color: #00C853;
+    width: 355px;
+    height: 10px;
+    margin-left: 118px;
+}
+
+
 #needimprovement {
-    margin-left: -175px;
+    margin-left: 0px;
+}
+
+#needimprove_red {
+    background-color: #FF4D4D;
+    width: 355px;
+    height: 10px;
+    margin-left: 118px;
 }
 
 #v2_change_one ul{
