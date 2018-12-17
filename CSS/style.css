@@ -3471,7 +3471,7 @@ iframe {
 .project_card_fovi p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     width: 780px;
     padding-left: 140px;
     color: #ffffff;
@@ -3483,6 +3483,52 @@ iframe {
     margin-top: 50px;
 }
 
+#meeting_debrief {
+    width: 510px;
+    margin-bottom: 35px;
+}
+
+#target_user img {
+    margin-left: 118px;
+    margin-top: 20px;
+}
+
+#target_user p {
+    width: 360px;
+    position: relative;
+    float: right;
+    margin-top: -55px;
+}
+
+
+
+#productGoal h4{
+    margin-top: 80px;
+}
+
+#productGoal img {
+    margin-left: 118px;
+    margin-top: 20px;
+}
+
+#productGoal p {
+    width: 360px;
+    position: relative;
+    float: right;
+    margin-top: -55px;
+}
+
+#affinity_diagram {
+    margin-top: 20px;
+    margin-left: 118px;
+}
+
+
+#synthesis {
+    position: relative;
+    margin-top: -315px;
+    margin-left: 140px;
+}
 
 .coming_soon_fovi {
     background: #9a29b1;
