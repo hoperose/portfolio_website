@@ -3519,7 +3519,7 @@ iframe {
 }
 
 #affinity_diagram {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 118px;
 }
 
@@ -3531,13 +3531,38 @@ iframe {
 }
 
 #ideation_studio {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 118px;
 }
 
 #fovi_ideas {
     margin-left: 118px;
 }
+
+#fovi_solutions {
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+#task_flow {
+    margin-left: 118px;
+    margin-bottom: 15px;
+}
+
+
+#annotations_taskFlow ol {
+    list-style-type: lower-alpha;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+#annotations_taskFlow li {
+    width: 850px;
+    margin-left: 118px;
+    margin-top: 20px;
+}
+
 
 .coming_soon_fovi {
     background: #9a29b1;
