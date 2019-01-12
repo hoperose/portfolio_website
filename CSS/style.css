@@ -612,7 +612,7 @@ mark:hover{
         height: 38%;
         top: 40%;
         margin-top: 238px;
-        background: url(../images/land_image_3.jpg) center center no-repeat;
+        background: url(../images/land_image_4.jpg) center center no-repeat;
         background-size: 414px auto, cover;
 /*        position: absolute;*/
         position: absolute;
@@ -1370,8 +1370,74 @@ mark:hover{
     
 }
 
+
+
+/* Styling of Publications */
+
+.introduction_publication {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18.5px;
+    font-weight: 300;
+    float: right;
+    display: block;
+    margin-top: -251px;
+    margin-right: 225px;
+    margin-left: 200px;
+    padding-left: 88px;
+    width: 500px;
+    line-height: 1.85;
+    color: #333;
+}
+
+.academic_publications h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    margin-left: 280px;
+    margin-top: 100px;
+}
    
- 
+#paper_1_intro {
+    width: 500px;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+
+#paper_1_intro p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+}
+
+
+#paper_1_intro h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+/*    width: 500px;*/
+    color: #333;
+/*    margin-left: 280px;*/
+}
+
+
+#paper_1_image {
+    margin-right: 250px;
+    margin-top: -275px;
+    position: relative;
+    float: right;
+}
+
+.blog_posts h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    margin-left: 280px;
+    margin-top: 100px;
+    
+}
 
 
 /* Styling of Portfolio Project Page */
