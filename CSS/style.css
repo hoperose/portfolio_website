@@ -1404,40 +1404,113 @@ mark:hover{
     margin-top: 50px;
 }
 
-#paper_1_intro p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    color: #333;
-}
 
 
 #paper_1_intro h5 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
-/*    width: 500px;*/
     color: #333;
-/*    margin-left: 280px;*/
+    margin-top: 15px;
+
+}
+
+
+.paperDownload_button {
+    background-color: #ffffff;
+    color: #B82867;
+    border: 2px solid #B82867;
+    margin-left: 28%;
+    margin-top: 28px;
+    padding: 15px 28px;
+    font-size: 1.46vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.paperDownload_button:hover {
+    background-color: #B82867;
+    color: #ffffff;
+    
 }
 
 
 #paper_1_image {
     margin-right: 250px;
-    margin-top: -275px;
+    margin-top: -190px;
     position: relative;
     float: right;
 }
+
+
+
 
 .blog_posts h4 {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     font-weight: 600;
     color: #333;
-    margin-left: 280px;
     margin-top: 100px;
     
 }
+
+
+.blog_posts {
+    margin-bottom: 100px;
+    margin-left: 280px;
+    margin-top: 50px;  
+}
+
+.blog_posts h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    color: #B82867;
+    margin-top: 15px; 
+}
+
+
+/* Styling of gallery */
+
+#logobadge_gallery {
+    margin-left: -164px;
+    margin-top: -62px;
+    
+}
+
+
+
+.about_gallery h3 {
+    margin-top: 180px;
+    margin-bottom: 180px;
+    margin-left: 225px;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #333;
+}
+
+
+
+.introduction_gallery {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18.5px;
+    font-weight: 300;
+    float: right;
+    display: block;
+    margin-top: -251px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-left: 88px;
+    width: 500px;
+    line-height: 1.85;
+    color: #333;
+}
+
 
 
 /* Styling of Portfolio Project Page */
@@ -3695,12 +3768,12 @@ iframe {
     font-size: 14px;
     font-weight: 400;
     color: #333333;
-    margin-left: 185px;
+    margin-left: 145px;
     margin-top: 15px;
 }
 
 #screen_7Days img{
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 15px;
     -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
     -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
@@ -3713,14 +3786,14 @@ iframe {
     font-size: 14px;
     font-weight: 400;
     color: #333333;
-    margin-left: 105px;
+    margin-left: 30px;
     margin-top: 15px;
 
 
 }
 
 #screen_noEntries img{
-    margin-left: -20px;
+    margin-left: -75px;
     margin-top: 15px;
     -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
     -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
@@ -3733,7 +3806,7 @@ iframe {
     font-size: 14px;
     font-weight: 400;
     color: #333333;
-    margin-left: 90px;
+    margin-left: -10px;
     margin-top: 15px;
 
 }
