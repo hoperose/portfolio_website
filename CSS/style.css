@@ -1336,36 +1336,7 @@ mark:hover{
         margin-left: 25px;
         margin-top: 18px;
     }
-    
-/*    .copyright{
-        
-    }*/
-    
-    /*#eslaid {
-        margin-left: 25px;
-        margin-top: 18px;
-    }
-    */
-    /*#infoviz {
-        margin-left: 25px;
-        margin-top: 18px;
-    }*/
-    
-    
-    
-/*
-    #cr_portfolio {
-    font-family: 'Helvetica';
-    font-size: 18px;
-    color: #333;
-    text-align: center;
-    bottom: 0;
-    position: relative;
-    margin-top: 158px;
-    font-weight: 300;
-}
-*/
-    
+     
     
     
 }
@@ -1374,6 +1345,17 @@ mark:hover{
 
 /* Styling of Publications */
 
+.about_publication h3 {
+    margin-top: 180px;
+    margin-bottom: 180px;
+    margin-left: 275px;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #333;
+}
+
+
 .introduction_publication {
     font-family: 'Open Sans', sans-serif;
     font-size: 18.5px;
@@ -1381,7 +1363,7 @@ mark:hover{
     float: right;
     display: block;
     margin-top: -251px;
-    margin-right: 225px;
+    margin-right: 235px;
     margin-left: 200px;
     padding-left: 88px;
     width: 500px;
@@ -1480,15 +1462,20 @@ mark:hover{
 @media (max-width: 414px) {
     .container {
         overflow-y: scroll;
+        overflow-x: hidden !important;
+
     }
     
-    #aboutPublications {
+    
+    
+    .about_publication h3 {
         font-family: 'Lato', sans-serif;
         font-size: 50px;
         font-weight: 700;
         margin-top: 118px;
         margin-bottom: 180px;
-        margin-left: 12px;
+        margin-left: 40px;
+        margin-right: 0px;
         color: #333;
     }
     
@@ -1499,26 +1486,30 @@ mark:hover{
         font-weight: 300;
         display: block;
         margin-top: -168px;
-        margin-right: 42px;
-/*    margin-left: 350px;*/
-        padding-left: 75px;
+        margin-right: 40px;
         width: 330px;
         line-height: 1.58;
         color: #333;
         
     }
     
+
+    
     #aboutAcademicpub {
         font-size: 20px;
         color: #333;
         margin-left: 42px;
+        margin-right: 0px;
+        margin-top: 75px;
     }
     
     #paper_1_intro h5 {
         font-size: 16px;
         color: #333;
         display: block;
+        position: relative;
         margin-left: -240px;
+        margin-top: -15px;
         width: 350px;
 
     }
@@ -1528,6 +1519,7 @@ mark:hover{
         margin-top: 20px;
         font-size: 12px;
         padding: 10px 10px;
+/*        position: fixed;*/
         
     }
     
@@ -1551,10 +1543,7 @@ mark:hover{
         margin-left: -240px;
     }
     
-   /* .copyright p {
-        font-size: 18px;
-        margin-top: -1500px;
-    }*/
+   
 }
 
 
@@ -1564,10 +1553,8 @@ mark:hover{
 
 /* Styling of gallery */
 
-#logobadge_gallery {
-    margin-left: -164px;
-    margin-top: -62px;
-    
+#logo_gallery {
+    margin-left: -102px;
 }
 
 
@@ -1608,11 +1595,9 @@ mark:hover{
         overflow-y: scroll;
     }
     
-    #logobadge_gallery {
-        margin-top: 105px;
-        margin-left: -45px;
-        position: relative;
-        z-index: 1;
+    #logo_gallery {
+        margin-top: -75px;
+        margin-left: 45px;
     }
     
     .about_gallery h3 {
