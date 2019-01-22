@@ -1908,7 +1908,7 @@ mark:hover{
 /* Styling of Taskit */
 
 .background_image_taskit {
-    background: url(../Portfolio/Taskit/images/background.jpg) center center no-repeat;
+    background: url(../Portfolio/Taskit/images/taskit_background_new.jpg) center center no-repeat;
     background-size: cover;
     width: 100%;
     height: 500px;
@@ -2078,24 +2078,13 @@ mark:hover{
 }
 
 
-/*#screenshot_three figcaption {
+#walkthrough_caption {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 400;
     color: #333333;
-    margin-left: 50px;
+    text-align: center;
 }
-
-#screenshot_three {
-    margin-left: -90px;
-}
-
-#screenshot_three img {
-    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
-    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
-    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.58);
-
-}*/
 
 .process h4 {
     font-family: 'Open Sans', sans-serif;
@@ -2171,7 +2160,8 @@ mark:hover{
 }
 
 #navi_features {
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-left: 8px;
 }
 
 #navi_features li {
@@ -2431,7 +2421,7 @@ ul.tabs li.current {
         overflow: scroll;
     }
     .background_image_taskit {
-    background: url(../Portfolio/Taskit/images/background.jpg) center center no-repeat;
+    background: url(../Portfolio/Taskit/images/taskit_background_new.jpg) center center no-repeat;
     background-size: 600px auto, cover;
     height: 525px;
     margin-top: -160px;
