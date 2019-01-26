@@ -1371,6 +1371,10 @@ mark:hover{
     color: #333;
 }
 
+.academic_publications {
+    margin-bottom: 200px;
+}
+
 .academic_publications h4 {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
