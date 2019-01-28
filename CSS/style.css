@@ -2108,6 +2108,49 @@ mark:hover{
     width: 400px;
 }
 
+#use_cases {
+    margin-top: 35px;
+    margin-bottom: 50px;
+    
+}
+
+#individual_case img {
+    margin-left: 265px;
+    margin-bottom: 10px;
+}
+
+#individual_case p {
+    width: 325px;
+    margin-left: 155px;
+}
+
+#individual_case figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 65px;
+    margin-left: 250px;
+}
+
+#team_case img {
+    margin-left: 125px;
+}
+
+#team_case p{
+    width: 325px;
+    margin-left: 0px;
+}
+
+#team_case figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+/*    margin-top: 50px;*/
+    margin-left: 115px;
+}
+
 #goal {
     margin-left: -110px;
 }
@@ -2132,21 +2175,30 @@ mark:hover{
     font-weight: 400;
     color: #333333;
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+#problem_statement {
+    color: #6e6e6e;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 2;
 }
 
 #scenario_one {
     margin-left: 250px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 #scenario_two {
-    margin-left: 220px;
-    margin-top: 20px;
+    margin-left: 250px;
+    margin-top: 10px;
 }
 
 #scenario_three {
-    margin-left: 220px;
-    margin-top: 0px;
+    margin-left: 250px;
+    margin-top: 10px;
 }
 
 
