@@ -2110,7 +2110,7 @@ mark:hover{
 
 #use_cases {
     margin-top: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     
 }
 
@@ -2183,7 +2183,16 @@ mark:hover{
     color: #6e6e6e;
     font-size: 20px;
     font-style: italic;
-    line-height: 2;
+    line-height: 2.5;
+    font-weight: 400;
+    background-color: #cbedfd;
+}
+
+#problem_statement:hover {
+    background-color:#81d4fa;
+/*    -webkit-filter: brightness(150%);*/
+    cursor: pointer;
+    
 }
 
 #scenario_one {
