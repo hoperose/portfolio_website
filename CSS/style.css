@@ -1934,15 +1934,15 @@ mark:hover{
     font-size: 50px;
     color: #ffffff;
     text-align: center;
-    padding-top: 33px;
+    padding-top: 53px;
 }
 
 .project_card_taskit p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     width: 780px;
-    padding-left: 95px;
+    padding-left: 125px;
     color: #ffffff;
     padding-top: 30px;
     
@@ -1964,7 +1964,7 @@ mark:hover{
 .background h2 {
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 45px;
     color: #333333;
     margin-left: 118px;
     margin-top: 28px;
@@ -1979,24 +1979,20 @@ mark:hover{
     color: #333333;
 }
 
-#role_time {
-    margin-top: 25px;
-    margin-left: 103px;
-    
-}
 
 #role_time h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 23px;
     font-weight: 600;
     color: #333333;
+    margin-top: 28px;
+    margin-left: 118px;
 }
 
 #role_time p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    margin-left: 0px;
     color: #333333;
 }
 
@@ -2014,6 +2010,7 @@ mark:hover{
     font-size: 16px;
     font-weight: 400;
     color: #333333;
+    font-style: italic;
 }
 
 #client {
@@ -2050,7 +2047,7 @@ mark:hover{
 .process h2 {
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 45px;
     color: #333333;
     margin-left: 118px;
     margin-top: 28px;
@@ -2110,7 +2107,7 @@ mark:hover{
 
 #use_cases {
     margin-top: 35px;
-    margin-bottom: 75px;
+    margin-bottom: 85px;
     
 }
 
@@ -2129,7 +2126,7 @@ mark:hover{
     font-size: 14px;
     font-weight: 400;
     color: #333333;
-    margin-top: 65px;
+    margin-top: 40px;
     margin-left: 250px;
 }
 
@@ -2180,7 +2177,7 @@ mark:hover{
 }
 
 #problem_statement {
-    color: #6e6e6e;
+    color: #333;
     font-size: 20px;
     font-style: italic;
     line-height: 2.5;
@@ -2461,7 +2458,7 @@ ul.tabs li.current {
 .reflection h2 {
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 45px;
     color: #333333;
     margin-left: 118px;
     margin-top: 28px;
