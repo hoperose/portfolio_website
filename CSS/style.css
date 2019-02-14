@@ -92,6 +92,11 @@ html, body {
     position: fixed;
 }
 
+
+
+
+
+
 .navigation {
     position: fixed;
     top: 0;
@@ -356,8 +361,8 @@ li {
 }
 
 .entry_button{
-    background-color: #ffffff;
-    color: #B82867;
+    background-color: #B82867;
+    color: #ffffff;
     border: 2px solid #B82867;
     margin-left: 18%;
     margin-top: 28px;
@@ -371,8 +376,9 @@ li {
 }
 
 .entry_button:hover {
-    background-color: #B82867;
-    color: #ffffff;
+/*    background-color: #B82867;
+    color: #ffffff;*/
+     -webkit-filter: brightness(150%);
     
 }
 
@@ -382,6 +388,7 @@ li {
     position: relative;
     margin-left: 58px;
     margin-top: 5px;
+    z-index: 1;
 }
 
 /*.arrow_color:hover {
@@ -2010,7 +2017,7 @@ mark:hover{
     font-size: 16px;
     font-weight: 400;
     color: #333333;
-    font-style: italic;
+/*    font-style: italic;*/
 }
 
 #client {
@@ -2164,6 +2171,20 @@ mark:hover{
 #competitor_analysis {
     margin-left: 118px;
     margin-top: 15px;   
+}
+
+#competitor_synthesis {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+#competitor_synthesis li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 850px;
+    list-style: disc;
 }
 
 #competitorAnalysis_caption {
