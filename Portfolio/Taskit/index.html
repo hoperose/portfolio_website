@@ -111,7 +111,7 @@
             </div>
             <div id="role_time">
             <h3>MY ROLE</h3>
-            <p>As a freelance UX designer, I worked on designing and iterating wireframes, creating pixel-perfect mockups of the mobile app. With user research and competitor analysis, I helped the client capture user needs and turn those needs into solutions that can solve users’ pain points. I also collaborated with the engineering team in launching the app. This is a 5-week project.</p>
+            <p>As a freelance UX designer, I worked on designing and iterating wireframes, creating pixel-perfect mockups of the mobile app. With user research and competitor analysis, I helped the client capture user needs and turn those needs into solutions that can solve users’ pain points. I also collaborated with the developer in launching the app. This is a 5-week project.</p>
             </div>
             
             <div id="testimonial">
@@ -128,7 +128,7 @@
                 <h2>Design Process</h2>
                 <div class="stage_one">
                     <h3>DISCOVER &amp; DEFINE</h3>
-                    <p>In the kick-off meeting with the client, they walked me through three key features of their existing web-based application. Also, according to the market analysis and research done by their product manager, they talked about specific features that they already defined for the to-be-built mobile app.</p>
+                    <p>In the kick-off meeting with the client, they walked me through three key features of their existing web-based application. Also, according to the market analysis and research done by their product manager, they want the mobile app to mainly focus on managing the tasks users already created on their web-based applications.</p>
                     <a class="image-link" href="images/kickoff_walkthrough.png"><img id="kickoff_walkthrough" src="images/kickoff_walkthrough.png" alt="results from kick off meeting" width="850" height="658"></a>
                     <figcaption id="walkthrough_caption" class="figure-caption">Key features defined by the client for their web-based application and mobile app</figcaption>
                     <div class="space"></div>
@@ -139,31 +139,33 @@
                     <a class="image-link" href="images/synthesis.JPG"><img id="ur_synthesis" src="images/synthesis.JPG" alt="synthesize user data" width="500" height="361"></a>
                     <figcaption id="ur_synthesis_caption" class="figure-caption">Synthesized user data with post-it notes.</figcaption>
                     <div class="space"></div>
-                    <p>Based on the user data synthesis, I created the following two user scenarios which allowed me to think about solutions by incorporating the environmental context when the user interfaces with the mobile app:</p>
+                    <p>Based on the user data synthesis, I created the following two types of user scenario which allowed me to think about solutions by incorporating the environmental context when the user interfaces with the mobile app:</p>
                     <div class="row" id="use_cases">
                         <div class="col-xl-6" id="individual_case">
                             <img src="images/individual.png" width="45" height="45">
                             <p><i>Ming</i>, who is planning to travel in U.S. during his summer break, needs to apply for a US visa. As there are many documents as well as time-sensitive steps for the visa application, he is looking for some task management tool which allows him to easily track and manage the document preparation and the application process anywhere, anytime.</p>
-                            <figcaption class="figure-caption">User scenario (a)</figcaption>
+                            <figcaption class="figure-caption">Individual User scenario</figcaption>
                         </div>
                         <div class="col-xl-6" id="team_case">
                             <img src="images/team.png" width="55" height="55">
                             <p><i>X Abroad</i>, a study abroad agency, helps their clients apply for overseas programs in many countries. To improve the efficiency of their service, the agency is looking for some task management tool that makes program advisors efficiently supervise their applicants (e.g., preparing the transcript, personal statement, etc.) while keeping those relevant others such as applicant’s parents in the loop.</p>
-                            <figcaption class="figure-caption">User scenario (b)</figcaption>
+                            <figcaption class="figure-caption">Team User scenario</figcaption>
                         </div>
                     </div>
                     
 <!--                    <div class="space"></div>-->
-                    <h4>A UX competitor analysis</h4>
+                    <h4>A competitor analysis</h4>
                     <p>Given the context of Taskit mobile app, I conducted a competitor analysis that focuses on assessing three popular project/task management mobile apps (shown as below) to gain an overview of how they are designed for the user to track and manage the project progress.</p>
+                    <a class="image-link" href="images/radar_chart.png"><img id="competitor_analysis" src="images/radar_chart.png" alt="competitive analysis" width="520" height="284"></a>
+                    <figcaption id="competitorAnalysis_caption" class="figure-caption">A competitor analysis with the use of radar chart</figcaption>
+                    <p>Three key insights were uncovered from the competitor analysis:</p>
                     <ul id="competitor_synthesis">
-                        <li>Trello and Asana assume their users’ projects are team-based; OmniFocus 3 is for personal projects.</li>
-                        <li>Projects are organized with the use of boards which consist of lists/tasks in different workflow statuses.</li>
-                        <li>Collaborations are documented and shared within the team.</li>
-                        <li>None of them provides their users with a quick overview of the task progress.</li>
+                        <li>None of them has a specific feature to access a quick overview of the task progress.</li>
+                        <li>Data visualization should be improved.</li>
+                        <li>Interactive actions can be more intuitive and efficient.</li>
                     </ul>
-                    <a class="image-link" href="images/competitor_analysis.png"><img id="competitor_analysis" src="images/competitor_analysis.png" alt="UX competitor analysis" width="850" height="474"></a>
-                    <figcaption id="competitorAnalysis_caption" class="figure-caption">The UX competitor analysis with the use of <i>Airtable</i></figcaption>
+                    <!--<a class="image-link" href="images/competitor_analysis.png"><img id="competitor_analysis" src="images/competitor_analysis.png" alt="UX competitor analysis" width="850" height="474"></a>-->
+                    
                     
                     <div class="space"></div>
                     <h4>The Problem Statement</h4>
@@ -188,7 +190,7 @@
                         <li>The <span>Account Managing</span> flow allows the user to edit their personal account and log out the app. 
                         </li>
                     </ul>
-                    <a class="image-link" href="images/wireframing_v1.png"><img id="wireframing_v1" src="images/wireframing_v1.png" alt="first round of wireframing" width="850" height="389"></a>
+                    <a class="image-link" href="images/wireframing_v1.png"><img id="wireframing_v1" src="images/wireframing_v1.png" alt="first round of wireframing" width="800" height="459"></a>
                     <figcaption id="wireframing_caption_1" class="figure-caption">The 1st Version of Wireflows</figcaption>
                     <div class="space"></div>
                     <p>After showing the first version of wireframing to my client, they provided the feedback as follows:</p>
@@ -197,10 +199,10 @@
                             <h4>What The Client Likes</h4>
                             <div id="likes_green"></div>
                             <ul>
-                                <li>The Login + Sign Up flow is simple. Also, it provides login options via popular social media accounts.</li>
-                                <li>The data visualization design with segmented donut chart efficiently presents an overview of the task progress.</li>
-                                <li>The tab panel with the use of the Kanban technique  makes it simple to quickly view the workflow of tasks.</li>
-                                <li>The Notification flow not only informs the user about task collaboration invitation but also serves a warning about the due dates.</li>
+                                <!--<li>The Login + Sign Up flow is simple. Also, it provides login options via popular social media accounts.</li>-->
+                                <li>The data visualization design with segmented donut chart efficiently presents a quick overview of the task progress.</li>
+                                <li>The tab panel with the use of the Kanban technique  makes it simple to flip through steps in different workflows of each task.</li>
+                                <li>The notification flow not only informs the user about task collaboration invitation but also serves as a reminder of the due dates.</li>
                             </ul>
                         </div>
  <!--                       <div class="col-xl-2">
@@ -210,7 +212,7 @@
                             <h4>What Need To Be Improved</h4>
                             <div id="needimprove_red"></div>
                             <ul>
-                            <li>Despite the bottom navigation bar makes the app's navigation in a neat and clean manner, a more simple alternative need to be used due to the company's current app development budget constraints. </li>
+                            <li>Despite the bottom navigation bar makes the app's navigation neat and clean, it can be changed to a more simple alternative due to the number of top-level views. </li>
                             <li>Task steps viewing and managing needs to be prioritized. </li>
                             <li>The tab panel with the use of the Kanban technique needs to be simplified. </li>
                             <li>The screen space use needs to be optimized. </li>
@@ -221,7 +223,7 @@
                     <div id="v2_change_one" class="row">
                         <div class="col-xl-5">
                             <ul>
-                                <li>The bottom navigation bar was removed to save the client's app development budget.</li>
+                                <li>The bottom navigation bar was removed to simplify the home page.</li>
                                 <li>The "Account" and "Notification" flow were located on the homepage.</li>
                                 <li>The number of steps left for each task were displayed on the homepage, which allows the user to grasp a quick view of task progress.</li>
                             </ul>
@@ -244,7 +246,7 @@
                         </div>
                     </div>
                     <div></div>
-                    <p>In the design review meeting, the client was satisfied with these major changes that I made in the 2nd version of iteration. Specifically, <span>they really liked the new Home flow design which was more straightforward and intuitive than the 1st version. Nonetheless</span>, the client still pointed out two problems as follows: </p>
+                    <p>In the design review meeting, the client was satisfied with these major changes that I made in the 2nd version of iteration. Specifically, <span>they really liked the new home flow which was more straightforward and intuitive than the previous version.</span> Nonetheless, the client still pointed out three problems as follows: </p>
                     <div id="v3_change_one" class="row">
                         <div class="col-xl-5">
                             <h4>Problems</h4>
@@ -298,7 +300,7 @@
                 <h3>IMPACT</h3>
                 <ul>
                     <li>Designed an efficient experience for the Taskit mobile app by incorporating effective visual tools such as Kanban technique, segmented donut chart and activity history tracking. </li>
-                    <li>Simplified the navigation as well as optimized the user flow by reducing the number of screens and clicks.</li>
+                    <li>Simplified and optimized the user flow.</li>
                 </ul>
                 <h3>WHAT I LEARNED</h3>
                 <ul>
