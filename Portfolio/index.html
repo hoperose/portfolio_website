@@ -30,7 +30,7 @@
       rel="stylesheet">-->
     
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
     
     <!-- Hover.css -->
     <link rel="stylesheet" href="../CSS/hover-min.css">
@@ -51,40 +51,42 @@
     
     
 <body>
-    <div class="container">
-        <div class="top">
-             <div class="logo" id="logo_portfolio">
-                <a href="../index.html"><img id="logobadge" src="../images/logo_update.png" alt="personal logo" height="38" width="38"></a>
-            </div>
-            <div id="portfolio_nav" class="navigation">
-                <ul id="portfolio">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="../About/index.html">About</a></li>
-                <li><a href="../Publications/index.html">Publications</a></li>
-                <li><a href="../Gallery/index.html">Gallery</a></li>
-                </ul>
-            <div class="contact"><p>Say Hi <br>
-                            <span><a href="mailto:qyhoperose@gmail.com" id="contact_email">qyhoperose@gmail.com</a></span></p></div>
-                <div id="social_connection" class="contact">
-                    <p>Connect With Me <br>
-                    <span><a href="https://www.linkedin.com/in/qian-y-76757a70/">LinkedIn</a>
-                          <a href="https://dribbble.com/hoperose">Dribble</a>
-                          <a id="social_twitter" href="https://twitter.com/qianyu710">Twitter</a></span></p>
-            </div>
-            <div class="icon">
-                <div class="hamburger"></div>
-            </div>
-            </div>
-            
+        <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top" style="background-color: #ffffff;">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+            <img src="../images/logo_update.png" alt="personal brand logo" height="38" width="38">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse bs-navbar-collapse" id="navbarResponsive">
+        <ul class="nav navbar-nav navbar-right">
+       
+        <li>
+          <a href="/index.html">HOME</a>
+        </li>
+        <li class="active">
+          <a href="/Portfolio/index.html">WORK</a>
+        </li>
+        <li>
+          <a href="/About/index.html">ABOUT</a>
+        </li>
+       
+        </ul>
         </div>
+        </div>
+        </nav>
+        
+    <main role="main-inner-wrapper" class="container">
         
         <!-- Introduction -->
-        <div class="intro">
+       <!-- <div class="intro">
             <h3 id="aboutPortfolio">Portfolio</h3>
             <div class="introduction_portfolio">
                 <p>I’ve conducted designs for diverse user groups with different challenges. To me, decent design solutions come from deep understanding of the problem, constraints, and business goals through empathizing with both clients and end users, iterations which incorporate critiques and user feedback, and social good-oriented decisions.</p>
             </div>
-        </div>
+        </div>-->
         
         
         <!-- Portfolio -->
@@ -102,7 +104,7 @@
             <div href="#" class="card" id="fovi_health">
                 <a id="thumbnailtab" href="Fovi_health/"><img class="card-img-top" src="../images/showcase_fovi.jpg" alt="thumbnail images">
                 <div class="card-img-overlay">
-                    <div class="card-body" id="soundslikefuncard">
+                    <div class="card-body">
                         <h4 class="card-title">Fovi Health</h4>
                         <p class="card-text">Product Design | UX Design</p>
                     </div>
@@ -113,7 +115,7 @@
             <div href="#" class="card" id="DMV">
                 <a id="thumbnailtab" href="DMV/"><img class="card-img-top" src="../images/DMV_showcase.jpg" alt="thumbnail images">
                 <div class="card-img-overlay">
-                    <div class="card-body" id="soundslikefuncard">
+                    <div class="card-body">
                         <h4 class="card-title">DMV Office Visit Appointment</h4>
                         <p class="card-text">UX Design | User Research</p>
                     </div>
@@ -124,7 +126,7 @@
             <div href="#" class="card" id="calcentral">
                 <a id="thumbnailtab" href="Calcentral/"><img class="card-img-top" src="../images/thumbnail_calcentral.jpg" alt="thumbnail images">
                 <div class="card-img-overlay">
-                    <div class="card-body" id="calcentralcard">
+                    <div class="card-body">
                         <h4 class="card-title">CAL Planning &amp; Scheduling</h4>
                         <p class="card-text">Design Research</p>
                     </div>
@@ -168,7 +170,7 @@
             <div href="#" class="card" id="soundslikefun">
                 <a id="thumbnailtab" href="Soundslikefun/"><img class="card-img-top" src="../images/thumbnail_soundslikefun.jpg" alt="thumbnail images">
                 <div class="card-img-overlay">
-                    <div class="card-body" id="soundslikefuncard">
+                    <div class="card-body">
                         <h4 class="card-title">Sounds Like Fun</h4>
                         <p class="card-text">Tangible User Interface Design</p>
                     </div>
@@ -229,7 +231,7 @@
         
         </div>
         
-    </div>
+    </main>
     
     <script src="../JS/main.js"></script>
     <!-- jQuery lib -->
@@ -240,8 +242,21 @@
     
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.navbar-nav').on('click', 'li',function(){
+                $('.navbar-nav li.active').removeClass('active');
+                $(this).addClass('active');
+                
+            });
+        })
+    
+    </script>
+    
     <script type="text/javascript">
         $(document).ready(function(){
             $('.icon').click(function(){

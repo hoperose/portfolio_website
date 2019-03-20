@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900|Abril+Fatface|Frank+Ruhl+Libre:400,500,700,900|Karla|Lora:400,700|Open+Sans:300,400,600,700|PT+Sans:400,700|PT+Serif:400,700|Source+Sans+Pro:400,600,700|Playfair+Display:400,700|Lato:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Frank+Ruhl+Libre:400,500,700,900|Karla|Lora:400,700|Open+Sans:300,400,600,700|PT+Sans:400,700|PT+Serif:400,700|Source+Sans+Pro:400,600,700|Playfair+Display:400,700|Lato:400,700,900|Libre+Baskerville:400,700');
 
 
 html, body {
@@ -6,21 +6,144 @@ html, body {
     margin: 0;
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
 }
 
 
-.name h2 {
-    font-family: 'Baskerville', Baskerville Old Face;
-    font-weight: 600;
-    font-size: 2.22vw;
-    text-align: center;
-    padding-top: 25px;
-    margin: 0px;
-    margin-left: 639px;
-    margin-right: 23px;
+
+/* Landing_page V2*/
+
+nav {
+    width: 100%;
+}
+
+.navbar {
+/*    margin-left: 110px;*/
+    margin-top: -150px;
     position: fixed;
+    z-index: 1;
+    height: 100px;
+    
 }
+
+
+.navbar ul {
+margin-left: 765px;
+margin-top: 0px;
+}
+
+.navbar img {
+    margin-left: 135px;
+    margin-top: 10px;
+}
+
+.navbar li a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+/*
+    display: inline-block;
+    float: right;
+*/
+    line-height: 60px;
+    color: #333;
+    text-decoration: none;
+    
+}
+
+.navbar-nav>.active>a {
+    color: #B82867;
+}
+
+.navbar li a:hover {
+    color: #B82867;
+/*    -webkit-filter: brightness(150%);*/
+}
+
+a.visited {
+    color: #B82867;
+}
+
+
+
+
+main {
+    margin-top: 150px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+    
+}
+
+#hello-im {
+    margin-top: -135px;
+}
+
+
+#hello-im h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+}
+
+#qian-yu h1{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+  padding-top: 25px;
+  padding-bottom: 10px;
+
+}
+
+#design-ux {
+    width: 550px;
+}
+
+#design-ux h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.55;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+    
+}
+
+
+
+main img {
+    margin-left: 190px;
+    margin-top: -75px;
+}
+
+#dots_square {
+    margin-top: -275px;
+    margin-left: 280px;
+    transform: rotate(65deg);
+    
+}
+
+
+#landing {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #333;
+}
+
+
+
+
 
 @media (min-width: 1450px) {
     .name h2 {
@@ -58,17 +181,9 @@ html, body {
     
 }
 
-#logobadge {
-    position: relative;
-/*    margin-left: 50px;*/
-    margin-top: -39px;
-    display: block;
-}
 
 
-#logobadge:hover {
-    -webkit-filter: brightness(150%);
-}
+
 
 
 #logobadge_about {
@@ -300,20 +415,20 @@ li {
     margin-left: -15px;
 }
 
-.split {
+/*.split {
     position: absolute;
     width: 50%;
     height: 100%;
     overflow: hidden;
-}
+}*/
 
-
+/*
 .split.left {
     left: 0;
     background: url(../images/land_image_3.jpg) center center no-repeat;
     background-size: cover;
     position: absolute;
-}
+}*/
 
 .mobile_landing_about {
 /*    display: none;*/
@@ -336,9 +451,11 @@ li {
 
 
 
+/*
 .split.right {
     right: 0;
 }
+*/
 
 
 
@@ -391,24 +508,7 @@ li {
     z-index: 1;
 }
 
-/*.arrow_color:hover {
-        fill: #ffffff;
-    }*/
-
-
-/*.ux_design {
-    margin-top: 18px;
-    margin-left: 19%;
-}
-
-
-.ux_design p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
-    font-weight: 400;
-   */
-/*    margin-bottom: -88px;*/
-    
+  
 }
 
 
@@ -448,7 +548,7 @@ mark:hover{
 
 
 
-#landing {
+/*#landing {
     font-family: 'Helvetica';
     font-size: 1.25vw;
     color: #333;
@@ -458,7 +558,7 @@ mark:hover{
     position: fixed;
     font-weight: 300;
     margin-left: 639px;
-}
+}*/
 
 @media (min-width: 1450px) {
     #landing {
@@ -808,28 +908,27 @@ mark:hover{
 /* Styling of About Page */
 
 
-
-.about h3{
-    margin-top: 180px;
-    margin-bottom: 180px;
-    margin-left: 280px;
-    font-family: 'Lato', sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    color: #333;
-    
+.about_wrapper {
+    margin-top: 150px;
+    padding-top: 125px;
 }
 
-.introduction {
-    font-family: 'Raleway', sans-serif;
+.intro {
+        padding-bottom: 85px;
+        margin-left: -100px;
+}
+
+.introduction_me {
+    font-family: 'Open Sans', sans-serif;
     font-size: 18.5px;
-    float: right;
+    font-weight: 300;
+    float: left;
     display: block;
-    margin-top: -268px;
-    margin-right: 208px;
-    margin-left: 350px;
-    padding-left: 75px;
-    width: 635px;
+    margin-top: -75px;
+    margin-right: 75px;
+    padding-right: 29px;
+    margin-left: 265px;
+    width: 945px;
     line-height: 1.85;
     color: #333;
 }
@@ -842,7 +941,7 @@ mark:hover{
 .more a {
     color: #B82867;
     text-decoration: none;
-    font-family: 'Raleway';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     transition: all .3s ease-in-out;
     display: inline-block;
@@ -854,32 +953,40 @@ mark:hover{
     height: 30px;
 }
 
+
+
+
 .portait {
     background: url(../images/about_image.jpg);
     background-size: cover;
+    width: 100%;
     height: 525px;
 }
 
+
 .bio {
-    margin-top: 28px;
-    margin-bottom: 158px;
+/*    margin-top: 28px;*/
+    margin-bottom: 70px;
+    padding-top: 108px;
 }
 
 
-.story h3{
+.bio h3{
     font-family:'Lato', sans-serif;
     font-size: 50px;
     font-weight: 700;
-    margin-left: 280px;
+    margin-left: 165px;
     color: #333;
 }
 
 .details {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     font-size: 18px;
     display: block;
-    margin-left: 280px;
-    width: 909px;
+    margin-left: 165px;
+    margin-top: 25px;
+    width: 945px;
     color: #333;
     line-height: 1.85;
 }
@@ -889,25 +996,79 @@ mark:hover{
     text-decoration: none;
 }
 
-.resume button {
-    background-color: #ffffff;
+#contacts {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
     color: #B82867;
-    border: 2px solid #B82867;
-    margin-left: 628px;
-    border-radius: 0px;
-    padding: 18px 28px;
-    font-size: 28px;
-    font-family:'Lato', sans-serif;
-    font-weight: 700;
-    margin-top: 39px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    margin-left: 165px;
+    margin-top: 25px;
 }
 
-.resume button:hover {
-    background-color: #B82867;
-    color: #ffffff;
+
+
+a {
+    color: #B82867;
+    
 }
+
+
+.pub {
+/*    margin-top: 28px;*/
+    margin-bottom: 158px;
+    padding-top: 25px;
+}
+
+
+.pub h3{
+    font-family:'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 165px;
+    color: #333;
+}
+
+
+
+.papers h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px; 
+    display: block;
+    width: 945px;
+    margin-left: 165px;
+    margin-top: 25px;
+    color: #333;
+    line-height: 1.85;
+}
+
+
+
+.btn-outline-primary.custom-btn {
+    color: #B82867;
+    border-color: #B82867;
+    margin-left: 165px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px; 
+    
+}
+
+.btn-outline-primary.custom-btn:hover {
+    color: #ffffff;
+    border-color: #B82867;
+    background: #B82867;
+}
+
+
+#paper_1 {
+    margin-bottom: 35px;
+}
+
+#paper_2 {
+    margin-bottom: 35px;
+}
+
 
 
 .site {
@@ -917,13 +1078,13 @@ mark:hover{
 }
 
 
-.website {
-    margin-left: 228px;
-    padding-top: 60px;
+.site h4{
+    margin-left: 165px;
+    padding-top: 75px;
     margin-top: -50px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 600;
     color: #333;
 }
 
@@ -936,8 +1097,9 @@ mark:hover{
     display: inline-block;
     padding-left: 280px;
     margin-right: 308px;
+    padding-top: 40px;
     margin-top: -108px;
-    width: 550px;
+    width: 725px;
     line-height: 2em;
 }
 
@@ -1058,18 +1220,18 @@ mark:hover{
 
 /* Styling of Portfolio Page */
 
-
-
-#aboutPortfolio {
+.intro h3 {
     font-family: 'Lato', sans-serif;
     font-size: 50px;
     font-weight: 700;
-    margin-top: 180px;
+    margin-top: -75px;
     margin-bottom: 180px;
     margin-left: 100px;
     color: #333;
     
 }
+
+
 
 .introduction_portfolio {
     font-family: 'Open Sans', sans-serif;
@@ -1090,77 +1252,79 @@ mark:hover{
 .card {
     width: 446px;
     height: 358px;
-    margin-left: 102px;
+    margin-top: 25px;
     display: inline-block;
+    position: relative;
+    float: left;
     border-radius: 0;
     border: none;
 }
 
+
+
 .card-img-top {
     border-radius: 0;
+    margin-left: 50px;
 }
 
-#tascheduler {
+
+#taskitmobile {
     margin-left: 25px;
+}
+
+
+#tascheduler {
+    margin-left: 50px;
 }
 
 #hobbyup {
     margin-top: 25px;
+    margin-left: 25px;
 }
 
 #calcentral {
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
-/*#eslaid {
-    margin-left: 25px;
-}*/
 
-/*#infoviz {
-    margin-top: 25px;
-}*/
 
 
 #dragonfruit {
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 
 #soundslikefun {
     margin-top: 25px;
-}
-
-#fovi_health {
     margin-left: 25px;
 }
 
+#fovi_health{
+    margin-left: 50px;
+
+}
+
+/*#fovi_health.card-body {margin-bottom: 190px;}*/
+
+
 #DMV {
     margin-top: 25px;
+    margin-left: 25px;
 }
+
 
 .card-body {
     width: 405px;
     height: 100px;
     background: #f7f7f7;
-    margin-top: 228px;
+    margin-top: 155px;
+    margin-left: 50px;
     color: #4e4e4e;
     transition: background .3s ease-in-out;
     
 }
 
 
-
-/*
-#wechatcard {
-    height: 126px;
-    margin-top: 202px;
-}
-*/
-
-/*.card-body:hover {
-    background: #B82867;
-    color: #ffffff;
-}*/
 
 
 
@@ -1190,34 +1354,7 @@ mark:hover{
     
 }
 
-#more_projects_button {
-    margin-top: 58px;
-}
 
-#more_projects_button button {
-    background-color: #ffffff;
-    color: #B82867;
-    border: 2px solid #B82867;
-    margin-left: 445px;
-    border-radius: 0px;
-    padding: 18px 28px;
-    font-size: 28px;
-    font-family:'Lato', sans-serif;
-    font-weight: 300;
-/*    margin-top: 39px;*/
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-#more_projects_button button:hover {
-    background-color: #B82867;
-    color: #ffffff;
-}
-
-#load_more {
-    display: none;
-}
 
 
 
@@ -1261,7 +1398,7 @@ mark:hover{
     color: #333;
 }
     .frame {
-        margin-bottom: -80px;
+        margin-bottom: -25px;
         position: relative;
     }
     
@@ -3332,6 +3469,8 @@ iframe {
     margin-left: 380px;
     margin-top: 50px;
 }
+
+
 
 
 /* COMING SOON */
