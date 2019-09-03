@@ -1268,39 +1268,45 @@ a {
 }
 
 
-#taskitmobile {
+#kb_ia {
     margin-left: 25px;
 }
 
 
-#tascheduler {
+#taskitmobile {
     margin-left: 50px;
 }
 
+/*
+#tascheduler {
+    margin-left: 50px;
+}*/
+
 #hobbyup {
-    margin-top: 25px;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 #calcentral {
-    margin-left: 50px;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 
 
 
 
 #dragonfruit {
-    margin-left: 50px;
-}
-
-
-#soundslikefun {
     margin-top: 25px;
     margin-left: 25px;
 }
 
-#fovi_health{
+
+#soundslikefun {
     margin-left: 50px;
+}
+
+#fovi_health{
+    margin-top: 25px;
+    margin-left: 25px;
 
 }
 
@@ -1308,8 +1314,7 @@ a {
 
 
 #DMV {
-    margin-top: 25px;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 
